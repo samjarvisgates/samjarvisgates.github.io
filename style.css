@@ -1,0 +1,165 @@
+body {
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1px;
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 20vw;
+	font-weight: 700;
+	white-space: nowrap;
+	color: #1C75BC;
+	margin: 0%;
+}
+
+p {
+	font-size: 21em;
+	margin: 10%;
+	margin-top: 3%
+}
+
+img {
+	margin-top: 2%;
+	width: auto;
+	max-width: 100%;
+	height: auto;
+}
+
+.header {
+	text-align: right;
+	padding-left: 7%;
+	padding-right: 6%;
+	padding-bottom: 20em;
+	padding-top: 20em;
+	background : #1C75BC;
+}
+
+a {
+	margin-left: 2em;
+	font-size: 20em;
+	color: white;
+	font-weight: 200;
+}
+
+a:hover {
+	color: #EEEEEE;
+}
+
+a:active {
+	color: #DDDDDD;
+}
+
+h2 {
+	font-size: 21em;
+	font-weight: 400;
+	margin-bottom: 0%;
+}
+
+.line {
+	margin-top: 5em;
+	margin-bottom: 18em;
+  	width: 100%;
+  	height: 1px;
+  	background-color: #27AAE1;
+}
+
+#Gray-Header-Box {
+	text-align: left;
+	padding: 40em;
+	padding-left: 7%;
+	padding-right: 6%;
+	background: #F1F2F2;
+}
+
+#name {
+	font-size: 48em;
+	text-align: right;
+	font-weight: bold;
+}
+
+#title {
+	font-size: 24em;
+  	color : #27AAE1;
+  	line-height: 1em;
+}
+
+#experience {
+	margin-left: 6%;
+	margin-right: 6%;
+	text-align: left;
+	padding: 1%;
+	padding-right: 0%
+}
+
+ul {
+	margin-top: 1%;
+	font-size: 18em;
+}
+
+.bold {
+	font-size: 18em;
+	font-weight: 700;
+}
+
+.info {
+	font-size: 18em;
+}
+
+.leftbox {
+	margin-left: 4%;
+	text-align: left;
+	float: left;
+	padding-left: 3%;
+	padding-right: 10em;
+	width: 450px;
+}
+
+.rightbox {
+	margin-right: 5%;
+	text-align: left;
+	float: right;
+	padding-left: 5em;
+	width: 410px;
+}
+
+.inside-right {
+	float: left;
+	width: 225px;
+}
+
+.inside-left {
+	float: left;
+	width: 205px;
+	padding-right: 20em;
+}
+
+
+.line-height {
+	line-height: 26em;
+}
+
+.skills {
+	font-size: 18em;
+	text-align: right;
+}
+
+.gray-bar {
+	font-family: arial;
+	font-weight: black;
+	font-size: 2em;
+  	color: #D1D3D4;
+  	vertical-align: -4px;
+  	line-height: .8em;
+}
+
+.blue {
+	color: #27AAE1;
+}
+
+#footer {
+	float: top;
+	height: 50px;
+	background : #1C75BC;
+}
+
