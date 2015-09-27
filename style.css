@@ -6,11 +6,9 @@ body {
 }
 
 h1 {
-	font-size: 20vw;
+	font-size: 72em;
 	font-weight: 700;
-	white-space: nowrap;
-	color: #1C75BC;
-	margin: 0%;
+	margin: 5%;
 }
 
 p {
@@ -66,10 +64,17 @@ h2 {
 
 #Gray-Header-Box {
 	text-align: left;
-	padding: 40em;
-	padding-left: 7%;
+	padding-top: 30em;
+	padding-bottom: 110em;
 	padding-right: 6%;
 	background: #F1F2F2;
+}
+
+#contact {
+	float: right;
+	padding-top: 10em;
+	text-align: right;
+	line-height: 20px;
 }
 
 #name {
@@ -158,7 +163,7 @@ ul {
 }
 
 #footer {
-	float: top;
+	margin-top: 620em;
 	height: 50px;
 	background : #1C75BC;
 }
