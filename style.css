@@ -139,11 +139,11 @@ ul {
 }
 
 .rightbox {
-	margin-right: 5%;
+	margin-right: 0%;
 	text-align: left;
-	float: right;
-	padding-left: 5em;
-	width: 410px;
+	float: left;
+	padding-left: 10em;
+	width: 405px;
 }
 
 .inside-right {
