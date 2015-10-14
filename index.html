@@ -1,23 +1,42 @@
 <!DOCTYPE html>
-<html>
-        <head>
-                <title>Home</title>
-                <meta charset="utf-8">
-                <link rel="stylesheet" href="style.css" />
-                <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,700' rel='stylesheet' type='text/css'> 
-                <link href='https://fonts.googleapis.com/css?family=Cutive+Mono' rel='stylesheet' type='text/css'>
-        </head>
+<html lang="en">
+<head>
+	<title>Sam Gates</title>
+	<meta charset="utf-8">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:100,700' rel='stylesheet' type='text/css'/>
 
-        <body>
-                <div class="header">
-                <span class="link"> <a href = "index.html">&nbsp;&nbsp;Home&nbsp;&nbsp;</a></span>
-                <span class = "link"> <a href = "bio.html">Biography</a></span>
-                <span class = "link"> <a href = "resume.html">&nbsp;Resume&nbsp;</a></span>
-                </div>
-                <h2><br></h2>
-                <img src="sam1.png" alt="profile picture" />  
-                <h1>Sam Gates</h1> 
-                <div class="footer"></div>
-        </body>
+	<!-- Bootstrap Stuff -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	
+	<link rel="stylesheet" href="homepage.css"/>
+	<script>
+	$(document).ready(function() {
+    	$('div.hidden').fadeIn(2500).removeClass('hidden');
+	});
+	</script>
 
+</head>	
+
+<body>
+
+<div class="container-fluid">
+  <div class="hidden">
+ 	<h1>Sam Gates</h1> 
+  	<h2>UX Design &amp; Computer Science</h2>
+  	<div class="row">
+   		<div class="col-xs-6">
+   			<a class="btn pull-right" href="portfolio.html">Portfolio</a>
+  		</div>
+  		<div class="col-xs-6">
+  			<a class="btn" href="resume.pdf">Resume</a>
+  		</div>
+  	</div>
+  </div>
+</div>
+
+</body>
 </html>
+
