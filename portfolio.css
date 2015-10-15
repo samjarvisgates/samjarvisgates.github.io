@@ -37,6 +37,16 @@ p, li {
     color: black;
 }
 
+.header {
+	position: fixed;
+	width: 100%;
+	height: 68px;
+    background: #333333;
+	background: rgba(51, 51, 51, 1);
+	z-index: 1000;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, .5);
+}
+
 .bold {
 	font-weight: 700 !important;
 }
@@ -48,9 +58,10 @@ p, li {
 .custom-nav,
 .custom-nav > a {
 	padding: 0%;
-	padding-top: 25px;
-	padding-bottom: 10px;
-	margin-right: 5%;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	margin-left: 20px;
+	margin-right: 3%;
 	margin-bottom: 20px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
@@ -81,6 +92,10 @@ p, li {
 .background-padding {
 	padding-top: 40px;
 	padding-bottom: 40px;
+}
+
+.lower {
+	padding-top: 65px;
 }
 
 .no-pad {
@@ -230,17 +245,7 @@ p, li {
 	padding-top: 5px;
 }
 
-@media (max-width: 650px) {
-	h2 {
-		font-size: 18px;
-		letter-spacing: 1px;
-	}
-}
 @media (max-width: 460px) {
-	h2 {
-		font-size: 16px;
-		letter-spacing: .5px;
-	}
 	.back {
 		font-size: 16px;
 		padding-left: 10px;
