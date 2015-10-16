@@ -46,6 +46,7 @@ h2 {
   	box-shadow : 2px 2px 3px rgba(0, 0, 0, 0.5);
   	width: 170px;
   	height: 50px;
+  	-webkit-tap-highlight-color: white;
 }
 
 .btn:hover,
@@ -76,11 +77,18 @@ h2 {
 
 @media (max-width: 450px) {
 	h1 {
-		font-size: 48px;
+		font-size: 42px;
 	}
 	h2 {
-		font-size: 24px;
+		font-size: 21px;
 		letter-spacing: 1.5px;
+	}
+	.btn {
+		width: 150px;
+		height: 45px;
+	}
+	.container-fluid {
+		padding-top: 110px;
 	}
 }
 
