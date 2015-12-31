@@ -3,112 +3,132 @@
 <head>
 	<title>Splender</title>
 	<meta charset="utf-8">
-	<link href='https://fonts.googleapis.com/css?family=Roboto:100,300,700' rel='stylesheet' type='text/css'/>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:900,400,300,100' rel='stylesheet' type='text/css'>
+
+	<!-- Bootstrap -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>	
-	<link rel="stylesheet" href="portfolio.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+	<script src="parallax.min.js"></script>  <!-- http://pixelcog.github.io/parallax.js/ -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="navbar.js"></script>
+
+	<link rel="stylesheet" href="CSS/navbar.css"/>
+	<link rel="stylesheet" href="CSS/splender.css"/>
+
 	<script>
-	$(document).ready(function() {
-    	$('div.hidden').fadeIn(500).removeClass('hidden');
+
+	$(document).ready(function () {
+		setCSS($( window ).height());
+		animateOpacity();
 	});
+
+	$(window).resize(function() {
+		setCSS($( window ).height());
+	});
+
+	$(window).scroll(function() {
+        // animate images
+		if (percentInView("#research")) {
+			$("#research").animate({"marginLeft": "0%"}, 1000, "easeOutQuart");
+		}
+		if (percentInView("#design")) {
+			$("#design").animate({"marginRight": "0%"}, 1000, "easeOutQuart");
+		}
+		if (percentInView("#prototypes")) {
+			$("#prototypes").animate({"marginLeft": "0%"}, 1000, "easeOutQuart");
+		}
+		if (percentInView("#app")) {
+			$("#app").animate({"marginLeft": "0%"}, 1500, "easeOutQuart");
+		}
+	});
+
+	function setCSS(height) {
+		$(".parallax-window").css({"height": height + "px"});
+		$(".project").css({"padding-top": height/2.5 + "px"});
+	}
+
 	</script>
 </head>	
 
 <body>
 
-<div class="container header">
-    <div class="custom-nav">
-        <a href="index.html">Home</a>
-        <a class="underline" href="portfolio.html">Portfolio</a>
-        <a href="Resume.pdf">Resume</a>
-    </div>
+<!-- Nav Bar -->
+<nav>
+	<ul id="nav-bar">
+	  <li><a href="index.html" id="home"><img id="logo-img" src="Images/logo.png" alt="logo"/></a></li>
+	  <ul class="right-links">
+	    <li class="link portfolio">
+	    	<a href="portfolio.html" id="portfolio">PORTFOLIO</a>
+	    	<ul class="dropdown">
+			    <a href="#" class="sublink">Splender</a>
+			    <a href="timbre.html" class="sublink">Timbre</a>
+			    <a href="trend.html" class="sublink">Trend</a>
+			    <a href="tavern.html" class="sublink">Tavern</a>
+			</ul>
+	    </li>
+	    <li class="link"><a href="Resume.pdf" id="resume"><span class="glyphicon glyphicon-download-alt"></span> &nbsp; RESUME</a></li>
+	  </ul>
+	</ul>
+</nav>
+
+<!-- Content -->
+<div class="parallax-window" data-parallax="scroll" data-image-src="Images/Splender-Mockup-Final.jpg">
+	<div class="project">Splender<h2>Web &amp; Mobile</h2>
+		<a href="#"><img id="down" src="Images/down.png" alt="scroll down icon"/></a>
+	</div>
 </div>
 
-<div class="container-fluid lower"></div>
-
-<div class="container-fluid inner_shadow background-padding hidden">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-2 title"><a class="btn back" href="portfolio.html">Back</a></div>
-			<div class="col-xs-10 title"><div class="title-bar"><h2>Splender</h2></div></div>
-  		</div>
-  		<div class="row top-pad">			
-  			<p>From June through August 2015, I completed an internship at Cartera Commerce.  Cartera Commerce provides shopping rewards programs for retail companies and airlines. As an intern, I worked on a B2C product called Splender.</p>
-  		</div>
-  		<div class="row top-pad">
-  			<div class="col-md-2 title"><p><span class="bold">How It Works</span></p></div>
-			<div class="col-md-10 title">
-				<p>The first version of Splender worked as follows:</p>
-				<ol>
-					<li>A customer would search Splender for a store they wanted to shop at, such as Nordstrom</li>
-					<li>The customer would then click out of Splender and go to the Nordstrom site</li>
-					<li>When the customer bought something on Nordstrom, Nordstrom recognized that the customer came from Splender</li>
-					<li>In return for sending them customers, Nordstrom gives a percentage of the purchase price back to Splender</li>
-					<li>Splender then gives half of this percentage back to the customer</li>
-				</ol>
-			</div>			
-  		</div>
-  		<div class="row top-pad">
-  			<div class="col-md-2 title"><p><span class="bold">First Steps</span></p></div>
-			<div class="col-md-10 title">
-				<img class="responsive-width" src="WebImages/Splender-Sketch1.png" alt="Notes"/>
-				<div class="top-pad"><p>My first task with Splender was to work with the product manager to identify areas to improve the shopping experience of Splender. Weekly, we consulted with beta testers from our target audience and learned that people wanted to search for products on Splender, not just stores.</p></div>
-				<div class="col-xs-6 left top-pad"><img class="responsive-width" src="WebImages/Splender-Sketch2.png" alt="Notes"/></div>
-				<div class="col-xs-6 right top-pad"><img class="responsive-width" src="WebImages/Splender-Sketch3.png" alt="Notes"/></div>
-				<p>&nbsp;<br>Based on these results, I started designing a product search feature for Splender. I researched how other ecommerce sites implemented product search. I read usability studies published by Baymard and sketched out some rough wireframes.</p>
-			</div>			
-  		</div>
-  		<div class="row top-pad">
-  			<div class="col-md-2 title"><p><span class="bold">The Prototypes</span></p></div>
-			<div class="col-md-10 title">
-				<p>After showing sketches to the beta testers, I created my first high-fidelity clickable prototype for product searches on Splender.  During weekly sessions and iterations with the beta-testers, the initial product-search prototype was improved, with help from the design team. I also created and began testing responsive, mobile, versions of the Splender webpage.</p>
-				<img class="gray-back responsive-width" src="WebImages/Splender1.png" alt="Initial Prototype"/>
-			</div>			
-  		</div>
-  		<div class="row top-pad">
-  			<div class="col-md-2 title"><p><span class="bold">The End</span></p></div>
-			<div class="col-md-10 title">
-				<p>After iterating for weeks, the final prototype was presented to the engineering, legal, and marketing teams. The final product search designs were selected and are currently being developed.</p>
-				<img class="dark-back responsive-width" src="WebImages/Splender2.png" alt="Final Prototype"/>
-			</div>			
-  		</div>
-  	</div>
-</div>
-<div class="container-fluid inner_shadow" id="app-gray">
-  		<div class="row">
-  			<div class="col-md-2"><p><span class="bold white">The App</span></p></div>
-			<div class="col-md-10">
-				<p><span class="white">During the process of improving the Splender website, the product manager and I also decided to create some designs for a Splender app. Unlike the website, the app would focus more on favoriting and creating a more personalized experience for the Splender user. We began testing different ideas and prototypes. As my internship ended, the IOS developer was working on the designs below including a design that implements tab navigation rather than menu navigation.</span></p>
-				<div class="row top-pad">
-  					<div class="col-md-2"><p><span class="white">Sign Up Process</span></p></div>
-					<div class="col-md-10">
-						<img class="responsive-width" src="WebImages/SplenderApp2.png" alt="App Onboarding"/>
-					</div>
-				</div>
-				<div class="row top-pad">
-  					<div class="col-md-2"><p><span class="white">Favoriting Process</span></p></div>
-					<div class="col-md-10">
-						<img class="responsive-width" src="WebImages/SplenderApp1.png" alt="App Favorites"/>
-					</div>
-				</div>
-				<div class="row top-pad">
-  					<div class="col-md-2"><p><span class="white">Shopping Process</span></p></div>
-					<div class="col-md-10">
-						<img class="responsive-width" src="WebImages/SplenderApp.png" alt="App Search"/>
-					</div>
-				</div>				
-			</div>			
-  		</div>
+<div class="container-fluid gray">
+	<div class="col-sm-6">
+		<div class="box"><h3>Goal</h3>Improve the online shopping experience and encourage people to begin their shopping journey at Splender.</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="box"><h3>About</h3>Customers earn cash back when they shop at 800+ stores (Nordstrom, Gap, etc.) through Splender.</div>
+	</div>
 </div>
 
+<div class="container-fluid margin">
+	<div class="row">
+		<div class="col-sm-6 left">
+			<h4>User Research</h4>
+			<p>My first task with Splender was to work with the product manager to identify areas to improve the shopping experience of Splender.  Weekly, we consulted with beta testers from our target audience and learned that people wanted to search for products on Splender, not just stores.</p>
+		</div>
+		<div class="col-sm-6">
+			<div id="research"></div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-7 col-sm-push-5 right">
+			<h4>UX Design</h4>
+			<p>To create a product search feature, I began by reviewing recent e-commerce usability studies conducted by Baymard. These studies tested and analyzed everything from sorting, filtering, searching, and displaying products on e-commerce websites. Using this knowledge, I found the best examples of each of these features and designed Splender product search.</p>
+		</div>
+		<div class="col-sm-5 col-sm-pull-7">
+			<div id="design"></div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-7 left">
+			<h4>Final Prototypes</h4>
+			<p>After showing sketches to the beta testers, I created a high-fidelity clickable prototype. I also created and began testing responsive, mobile, versions of the Splender webpage. After numerous iterations, I presented the final prototypes to the engineering, legal, and marketing teams.</p>
+		</div>
+		<div class="col-sm-5">
+			<div id="prototypes"></div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="right left apptext">
+			<h4>Mobile App</h4>
+			<p>During the process of improving the Splender website, I also began designs for a Splender mobile app. Unlike the website, the app focuses more on favoriting and creating a more personalized experience for the Splender user.</p>
+		</div>
+		<div id="app"></div>
+	</div>
+</div>
 
-
+<a href="#" class="back-to-top"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a>
 
 </body>
 </html>
-
-
-
 

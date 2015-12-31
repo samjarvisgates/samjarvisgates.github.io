@@ -1,0 +1,121 @@
+#nav-bar {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    z-index: 100;
+}
+
+#home {
+	width: 90px;
+	height: 60px;
+	background: #0071B1;
+	padding-top: 6px;
+	padding-left: 20px;
+}
+
+#logo-img {
+	height: 50px;
+	width: auto;
+}
+
+#logo {
+	margin: 0px;
+	padding: 0px;
+}
+
+#home:hover,
+#home:active {
+	background: #000000;
+	border: 0px;
+}
+
+.link {
+	height: 60px;
+	width: 160px;
+}
+
+.right-links {
+	float: right;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#portfolio {	
+	padding-top: 19px;
+	height: 60px;
+}
+
+#resume {
+	padding-top: 19px;
+	height: 60px;
+	padding-right: 10px;
+}
+
+li {
+    float: left;
+}
+
+li a,
+li a:visited,
+li a:focus,
+li a:active {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	letter-spacing: 1px;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover,
+li a:active {
+	color: white;
+	text-decoration: none;
+    background-color: rgba(0, 0, 0, 1);
+    border: 1px solid #888888;
+}
+
+.dropdown {
+	display: none;
+	padding: 0px;
+	width: 160px;
+	height: 240px;
+	background-color: rgba(0, 0, 0, .6);
+	list-style-type: none;
+}
+
+.sublink {
+	display: block;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: white;
+	letter-spacing: 1px;
+	height: 60px;
+	padding-top: 18px;
+}
+
+.sublink:hover,
+.sublink:active {
+	color: white;
+	text-decoration: none;
+    background-color: rgba(0, 0, 0, 1);
+    border: 1px solid #888888;
+}
+
+@media (max-width: 420px) {
+	.link {
+		width: 130px;
+	}
+	.dropdown {
+		width: 130px;
+	}
+}
