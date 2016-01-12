@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Tavern</title>
+	<meta charset="utf-8">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:900,400,300,100' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+	<!-- Bootstrap -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+	<script src="parallax.min.js"></script>  <!-- http://pixelcog.github.io/parallax.js/ -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="navbar.js"></script>
+
+	<link rel="stylesheet" href="CSS/navbar.css"/>
+	<link rel="stylesheet" href="CSS/tavern.css"/>
+
+
+	<script>
+	$(document).ready(function () {
+		setCSS($( window ).height());
+		animateOpacity();
+	});
+
+	$(window).resize(function() {
+		setCSS($( window ).height());
+	});
+
+	$(window).scroll(function() {
+        // animate images
+		if (percentInView("#research")) {
+			$("#research").animate({"marginLeft": "0%"}, 1000, "easeOutQuart");
+		}
+		if (percentInView("#design")) {
+			$("#design").animate({"marginRight": "0%"}, 1000, "easeOutQuart");
+		}
+		if (percentInView("#prototypes")) {
+			$("#prototypes").animate({"marginLeft": "0%"}, 1000, "easeOutQuart");
+		}
+	});
+
+	function setCSS(height) {
+		$(".parallax-window").css({"height": height + "px"});
+		$(".project").css({"padding-top": height/2.5 + "px"});
+	}
+	</script>
+</head>	
+
+<body>
+
+<!-- Nav Bar -->
+<nav>
+	<ul id="nav-bar">
+	  <li><a href="index.html" id="home"><img id="logo-img" src="Images/logo.png" alt="logo"/></a></li>
+	  <ul class="right-links">
+	    <li class="link portfolio">
+	    	<a href="portfolio.html" id="portfolio">PORTFOLIO</a>
+	    	<ul class="dropdown">
+			    <a href="splender.html" class="sublink">Splender</a>
+			    <a href="timbre.html" class="sublink">Timbre</a>
+			    <a href="trend.html" class="sublink">Trend</a>
+			    <a href="#" class="sublink">Tavern</a>
+			</ul>
+	    </li>
+	    <li class="link"><a href="Resume.pdf" id="resume"><span class="glyphicon glyphicon-download-alt"></span> &nbsp; RESUME</a></li>
+	  </ul>
+	</ul>
+</nav>
+
+<!-- Content -->
+<div class="parallax-window" data-parallax="scroll" data-image-src="Images/Tavern-Mockup-Final.jpg">
+	<div class="project">Tavern<h2>Website</h2>
+		<a href="#"><img id="down" src="Images/down.png" alt="scroll down icon"/></a>
+	</div>
+</div>
+
+<div class="container-fluid gray">
+	<div class="col-sm-6">
+		<div class="box"><h3>Goal</h3>Help local breweries reach more customers and help customers discover new tastes and preferences.</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="box"><h3>About</h3>Tavern is a subscription beer delivery service that delivers local craft beers to customers.</div>
+	</div>
+</div>
+
+<div class="container-fluid margin">
+	<div class="row">
+		<div class="col-sm-5 left">
+			<h4>Market Research</h4>
+			<p>The craft beer market has been rapidly increasing for the past few years. However, many craft breweries have difficulty selling their products because of unfamiliar branding. To help the craft breweries expand their market share, I am developing a business plan in which small craft breweries reach online customers through a service such as Tavern.</p>
+		</div>
+		<div class="col-sm-7">
+			<div id="research"></div>
+		</div>
+	</div>
+	<div class="row space">
+		<div class="col-sm-6 col-sm-push-6 right">
+			<h4>UX Design</h4>
+			<p>To verify interest for Tavern, I ran a small Google Consumer Survey about the topic. Next, I used my initial design for the Tavern homepage to run a question test on UsabilityHub. From the inital results, I learned that people were confused about how Tavern worked, what some of the images meant, and they wanted to know how much it would cost. After adjusting the designs and copy based on the feedback, the answers became increasingly positive.</p>
+		</div>
+		<div class="col-sm-6 col-sm-pull-6">
+			<div id="design"></div>
+		</div>
+	</div>
+	<div class="row space">
+		<div class="col-sm-5 left">
+			<h4>Final Prototype</h4>
+			<p>The final prototype/idea lets online customers select a number of beers they want to receive and how often they would like to receive them. Tavern then delivers an assortment of beers from small local craft breweries. Each beer comes with an information card. The information is meant to help people learn more about the beer they are drinking as well as about the brewery. Finally, customers can rate the different beers and Tavern will customize their future deliveries accordingly.</p>
+		</div>
+		<div class="col-sm-7">
+			<div id="prototypes"></div>
+		</div>
+	</div>
+</div>
+
+<a href="#" class="back-to-top"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a>
+
+</body>
+</html>
+

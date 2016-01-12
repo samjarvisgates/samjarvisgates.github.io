@@ -1,0 +1,96 @@
+.title {
+	margin: 0px;
+	padding: 0px;
+	min-height: 200px;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 60px;
+	letter-spacing: 1px;
+	color: #666666;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+.first {
+	margin: 0px;
+	
+}
+
+.second {
+	margin: 0px;
+	
+}
+
+#top-left { 
+	background: url(../Images/Splender-Mockup-Final.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 200px;
+	
+}
+
+#top-right {
+	background: url(../Images/Timbre-Mockup-Final.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 200px;
+}
+
+#bottom-left {
+	background: url(../Images/Trend-Mockup-Final.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 200px;
+	
+}
+
+#bottom-right { 
+	background: url(../Images/Tavern-Mockup-Final.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 200px;
+}
+
+.project {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+h2 {
+	font-size: 18px;
+	letter-spacing: 1px;
+	color: #EEEEEE;
+	font-weight: 300;
+	margin: 5px;
+}
+
+a:hover,
+a:active,
+a:focus {
+	text-decoration: none;
+}
+
+@media (max-width: 450px) {
+	h1 {
+		font-size: 50px;
+	}
+}
