@@ -120,8 +120,7 @@
 				},
 				{"gallery": [
 					"uploads/portfolio1.jpg",
-					"uploads/portfolioGIF.gif",
-					"uploads/portfolio2.mp4"
+					"uploads/portfolioGIF.gif"
 					]
 				},
 				{"header": 
@@ -132,8 +131,7 @@
 				},
 				{"gallery": [
 					"uploads/portfolio1.jpg",
-					"uploads/portfolioGIF.gif",
-					"uploads/portfolio2.mp4"
+					"uploads/portfolioGIF.gif"
 					]
 				}
 			]
