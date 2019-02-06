@@ -1,0 +1,564 @@
+
+/* SOME SPACING CORRECTIONS
+   ========================================================================== */
+   
+html, body, section, div,
+h1, h2, h3, h4, h5, h6,
+ul, ol, li, p, a,
+img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+ol, ul {
+	list-style-position: inside;
+}
+
+
+
+/* FONTS (sizing for Mobile Screens)
+   ========================================================================== */
+
+/**
+ * Root Font (Mobile)
+ */
+html, body,
+div, p, a {
+	color: #ffffff;
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+	line-height: 28px;
+}
+/**
+ * Button Font (Mobile)
+ */
+button, .btn {
+	color: #ffffff;
+	font-family: 'Rajdhani', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 1px;
+}
+/**
+ * Header Font (Mobile)
+ */
+h1, h2, h3, h4, h5, h6 {
+	color: #ffffff;
+	font-family: 'Rajdhani', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+}
+h3 {
+	font-size: 36px;
+	line-height: 42px;
+}
+h5 {
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 1px;
+}
+
+/* FONTS (sizing for Large Screens)
+   ========================================================================== */
+@media (min-width: 768px) {
+	/**
+	 * Root Font (PC)
+	 */
+	html, body,
+	div, p, a {
+		font-size: 18px;
+		line-height: 36px;
+	}
+	/**
+	 * Button Font (PC)
+	 */
+	button, .btn {
+		font-size: 18px;
+		line-height: 23px;
+		letter-spacing: 1.5px;
+	}
+	/**
+	 * Header Font (PC)
+	 */
+	h1, h2, h3, h4, h5, h6 {
+		letter-spacing: 0.75px;
+	}
+	h3 {
+		font-size: 48px;
+		line-height: 48px;
+	}
+	h5 {
+		font-size: 18px;
+		line-height: 23px;
+		letter-spacing: 1.5px;
+	}
+}
+
+
+
+/* SJG STYLES
+   ========================================================================== */
+ 
+/**
+ * BG Styles
+ */
+.bg-sjg {
+	background-color: #04060F;
+}
+.bg-ripples-white {
+	background-image: url('../pics/white-ripples.png');
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+.bg-ripples-orange {
+	background-image: url('../pics/orange-ripples.png');
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bg-primary-1,
+.bg-secondary-1 {
+    opacity: 0;
+    transition: opacity 0.2s ease-out;
+}
+.bg-primary-2,
+.bg-secondary-2, .bg-secondary-3,
+.bg-secondary-4, .bg-secondary-5, .bg-secondary-6 {
+    opacity: 0;
+    transition: opacity 0.2s ease-out;
+}
+.bg-primary-1 {
+	opacity: 1;
+}
+.bg-secondary-1 {
+	background-color: #006888;
+}
+.bg-secondary-2 {
+	background-color: #FFDE9E;
+}
+.bg-secondary-3 {
+	background-color: #99CEBA;
+}
+.bg-secondary-4 {
+	background-color: #B8C4E4;
+}
+.bg-secondary-5 {
+	background-color: #FBA1AC;
+}
+.bg-secondary-hello {
+	background-color: #B6EBFC;
+}
+
+
+/**
+ * Header Items
+ */
+.sjg-switch svg {
+	-webkit-transition: transform 0.2s ease-out;
+	-moz-transition: transform 0.2s ease-out;
+	-o-transition: transform 0.2s ease-out;
+	transition: transform 0.2s ease-out;
+}
+.sjg-switch svg:hover {
+    transform: scale(1.1);
+}
+.btn svg polyline,
+#sjg-logo-path,
+#sjg-switch-rect,
+#sjg-switch-circle {
+	-webkit-transition: stroke,fill 0.2s ease-out;
+	-moz-transition: stroke,fill 0.2s ease-out;
+	-o-transition: stroke,fill 0.2s ease-out;
+	transition: stroke,fill 0.2s ease-out;
+}
+
+/**
+ * Default Content Container
+ */
+.sjg-container {
+	max-width: 328px;
+	padding: 0 16px;
+}
+@media (min-width: 768px) {
+	.sjg-container {
+		width: 600px;
+		max-width: 600px;
+	}
+}
+
+/**
+ * Secondary Content Font Color
+ */
+.secondary-content-wrap, .secondary-content-wrap div, 
+.secondary-content-wrap p, .secondary-content-wrap li, 
+.secondary-content-wrap h1, .secondary-content-wrap h2, .secondary-content-wrap h3,
+.secondary-content-wrap h4, .secondary-content-wrap h5, .secondary-content-wrap h6 {
+	color: #024262;
+}
+
+/**
+ * Image Gallery
+ */
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	width: 100%;
+	padding: 12px 0;
+}
+.gallery-item {
+	width: 64px;
+	min-width: 64px;
+	height: 64px;
+	margin-right: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+.gallery-item > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.modal-window {
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    z-index: 1050;
+	display: none;
+}
+.modal-window img {
+	max-width: 75vw;
+	max-height: 75vh;
+}
+
+/**
+ * Button
+ */
+.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 30px 0 0 0;
+	min-width: 171px;
+	height: 44px;
+	border: 2.5px solid #FFFFFF;
+	border-radius: 2px;
+	color: #FFFFFF;
+	background-color: transparent;
+	cursor: pointer;
+	-webkit-transition: background-color,color 0.2s ease-out;
+	-moz-transition: background-color,color 0.2s ease-out;
+	-o-transition: background-color,color 0.2s ease-out;
+	transition: background-color,color 0.2s ease-out;
+}
+.btn-less {
+	margin: 44px 0 0 0;
+}
+.btn svg {
+	margin-left: 12px;
+}
+.btn:hover {
+	background-color: #FFFFFF;
+	color: #04060F;
+}
+.btn:hover svg polyline {
+	stroke: #04060F;
+}
+.secondary-content-wrap .btn {
+	color: #024262;
+	border: 2.5px solid #024262;
+}
+.secondary-content-wrap .btn:hover {
+	background-color: #024262;
+	color: #B8C4E4;
+}
+.secondary-content-wrap .btn:hover svg polyline {
+	stroke: #B8C4E4;
+}
+/** Button for Large Screens */
+@media (min-width: 768px) {
+	.btn {
+		margin: 36px 0 0 0;
+		min-width: 200px;
+		height: 52px;
+	}
+	.btn-less {
+		margin: 52px 0 0 0;
+	}
+	.btn svg {
+		margin-left: 16px;
+	}
+}
+
+/**
+ * Media Player
+ */
+.media-player-wrap {
+	min-height: 475px;
+	padding-bottom: 36px;
+}
+.media-player-gif,
+.media-player-body {
+	background-image: url('../pics/football.gif');
+	background-repeat: no-repeat;
+	background-size: 315px 178px;
+	background-position: center 40.3px;
+}
+.media-player-body-fade {
+	background-image: url('../pics/live-guide-fade.png');
+	background-repeat: no-repeat;
+	background-size: 328px 693px;
+	background-position: center top;
+}
+.media-player-body-full {
+	background-image: url('../pics/live-guide.png');
+	background-repeat: no-repeat;
+	background-size: 328px 693px;
+	background-position: center top;
+}
+.media-player-description {
+	display: none;
+	background-image: url('../pics/illustration.png');
+	background-repeat: no-repeat;
+	background-size: auto 905px;
+	background-position: center top;
+}
+/** Media Player for Large Screens */
+@media (min-width: 768px) {
+	.media-player-wrap {
+		min-height: 636px;
+		padding-bottom: 44px;
+	}
+	.media-player-gif,
+	.media-player-body {
+		background-size: 375px 211px;
+		background-position: center 48px;
+	}
+	.media-player-body-fade {
+		background-size: 391px 825px;
+	}
+	.media-player-body-full {
+		background-size: 391px 825px;
+	}
+	.media-player-description {
+		display: block;
+	}
+}
+
+/**
+ * Angel City
+ */
+.angel-city-faded {
+	background-image: url('../pics/cbc1Fade.png');
+	background-repeat: no-repeat;
+	background-size: 360px 244px;
+	background-position: center top;
+}
+.angel-city-full {
+	background-image: url('../pics/cbc1.png');
+	background-repeat: no-repeat;
+	background-size: 360px 244px;
+	background-position: center top;
+}
+.angel-city-wrap {
+	min-height: 180px;
+	padding-bottom: 36px;
+}
+/** Media Player for Large Screens */
+@media (min-width: 768px) {
+	.angel-city-faded {
+		background-size: 768px 519px;
+	}
+	.angel-city-full {
+		background-size: 768px 519px;
+	}
+	.angel-city-wrap {
+		min-height: 416px;
+		padding-bottom: 44px;
+	}
+}
+@media (min-width: 960px) {
+	.angel-city-faded {
+		background-size: 960px 649px;
+	}
+	.angel-city-full {
+		background-size: 960px 649px;
+	}
+	.angel-city-wrap {
+		min-height: 504px;
+		padding-bottom: 44px;
+	}
+}
+
+/**
+ * SVG Icons
+ */
+ .icon-list-item svg:hover circle {
+    fill: #FFFFFF;
+ }
+ .icon-list-item svg:hover path,
+ .icon-list-item svg:hover rect,
+ .icon-list-item svg:hover polyline {
+    stroke: #04060F;
+ }
+ .icon-list-item svg:hover #in-path {
+    fill: #04060F;
+ }
+ /* secondary page */
+.secondary-content-wrap .icon-list-item svg:hover circle {
+    fill: #024262;
+ }
+.secondary-content-wrap .icon-list-item svg:hover path,
+.secondary-content-wrap .icon-list-item svg:hover rect,
+.secondary-content-wrap .icon-list-item svg:hover polyline {
+    stroke: #B6EBFC;
+ }
+.secondary-content-wrap .icon-list-item svg:hover #in-path-2 {
+    fill: #B6EBFC;
+ }
+
+/**
+ * Content Blocks Paddings
+ */
+.section-label,
+.section-paragraph {
+	padding: 0 0 10px 0;
+}
+.section-first-header {
+	padding: 10px 0 20px 0;
+}
+.section-header {
+	padding: 74px 0 20px 0;
+}
+.section-subheader {
+	padding: 44px 0 10px 0;
+}
+.gallery {
+	padding: 10px 0;
+}
+.icon-list-item {
+	margin-right: 16px;
+	display: none;
+}
+/**
+ * Content Blocks Paddings (For Larger Screens)
+ */
+@media (min-width: 768px) {
+	.section-label,
+	.section-paragraph {
+		padding: 0 0 12px 0;
+	}
+	.section-first-header {
+		padding: 12px 0 24px 0;
+	}
+	.section-header {
+		padding: 88px 0 24px 0;
+	}
+	.section-subheader {
+		padding: 52px 0 12px 0;
+	}
+	.gallery {
+		padding: 12px 0;
+	}
+	.icon-list-item {
+		margin-right: 16px;
+	}
+}
+
+
+
+/* HELPERS
+   ========================================================================== */
+
+/**
+ * Width and Height HELPERS
+ */
+.w-100 { 
+	width: 100%;
+}
+.h-0 { 
+	height: 0;
+	overflow: hidden;
+	transition: height 0.2s ease-out;
+}
+.h-100 { 
+	height: 100%;
+}
+.h-100v { 
+	height: 100vh;
+}
+.h-50v { 
+	height: 50vh;
+}
+.h-120px {
+	height: 120px;
+}
+
+/**
+ * Position HELPERS
+ */
+.p-relative {
+	position: relative;
+}
+.p-absolute {
+	position: absolute;
+}
+.p-fixed {
+	position: fixed;
+}
+.p-0000{
+	top:0;right:0;bottom:0;left:0;
+}
+.z-minus-1 {
+	z-index: -1 !important;
+}
+.z-minus-10 {
+	z-index: -10 !important;
+}
+
+/**
+ * Flex HELPERS
+ */
+.flex-row {
+	display: flex;
+	flex-wrap: wrap;
+}
+.flex-col {
+	display: flex;
+	flex-direction: column;
+}
+.flex-h-left {
+	justify-content: flex-start;
+}
+.flex-h-center {
+	justify-content: center;
+}
+.flex-v-top {
+	align-items: flex-start;
+}
+.flex-v-center {
+	align-items: center;
+}
+
+/**
+ * Display HELPERS
+ */
+.btn-less {
+	display: none;
+}
+.d-none {
+	display: none !important;
+}
+.d-block {
+	display: block !important;
+}
+.d-init {
+	display: initial !important;
+}

@@ -1,62 +1,480 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
+
 <head>
-	<title>Sam J. Gates</title>
+
+	<title>SJG</title>
+
 	<meta charset="utf-8">
-	<link href='https://fonts.googleapis.com/css?family=Roboto:100,300' rel='stylesheet' type='text/css'/>
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-
-	<!-- Bootstrap -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-	<!-- Google Analytics -->
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-		ga('create', 'UA-71884021-1', 'auto');
-		ga('send', 'pageview');
-	</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	
-	<link rel="stylesheet" href="CSS/homepage.css"/>
-	<script>
-	$(document).ready(function() {
-		$('h1').css({"padding-top": $(window).height()/3.5});
-    	$('h1').hide();
-    	$('h2').hide();
-    	$('.row').hide();
-    	$('h1').fadeIn(2500);
-    	$('h2').fadeIn(2500);
-    	$('.row').fadeIn(2000);
-    	
-    	$( window ).resize(function() {
-			$('h1').css({"padding-top": $(window).height()/3.5});
-		});
-	});
-	</script>
+	<link rel="icon" href="favicon.ico">
 
-</head>	
+	<link href="https://fonts.googleapis.com/css?family=Rajdhani:700|Roboto+Slab" rel="stylesheet">
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/sjg.css" rel="stylesheet">
+
+</head>
 
 <body>
 
-<div class="container-fluid">
- 	<h1>Sam J. Gates</h1> 
-  	<h2>ux design &amp; computer science</h2>
-  	<div class="row">
-   		<div class="col-xs-6">
-   			<a class="btn pull-right" href="portfolio.html">Portfolio</a>
-  		</div>
-  		<div class="col-xs-6">
-  			<a class="btn" href="Resume.pdf"><span class="glyphicon glyphicon-download-alt"></span> Resume</a>
-  		</div>
-  	</div>
-</div>
+	
+	<!-- PRIMARY FIXED BACKGROUND-SET (width: 100%, height: 100%) -->
+	<div class="bg-primary-1 bg-sjg bg-ripples-white w-100 h-100v p-fixed p-0000 z-minus-10">
+		<div class="bg-primary-2 bg-sjg w-100 h-100">
+	
+			<!-- SECONDARY FIXED BACKGROUND-SET (width: 100%, height: 100%) -->
+			<div class="bg-secondary-1 bg-ripples-orange w-100 h-100">
+				<div class="bg-secondary-2 w-100 h-100">
+					<div class="bg-secondary-3 w-100 h-100">
+						<div class="bg-secondary-4 w-100 h-100">
+							<div class="bg-secondary-5 w-100 h-100">
+								<div class="bg-secondary-hello w-100 h-100">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- SECONDARY FIXED BACKGROUND-SET (width: 100%, height: 100%) -->
 
+		</div>
+	</div>
+	<!-- PRIMARY FIXED BACKGROUND-SET (width: 100%, height: 100%) -->
+	
+
+	<!-- HEADER -->
+	<header class="w-100 h-100v flex-col flex-h-center flex-v-center">
+		
+		<!-- DUMMY BOX (height 120px) -->
+		<div class="w-100 h-120px"></div>
+		
+		<!-- LOGO BOX -->
+		<div class="sjg-logo w-100 flex-row flex-h-center">
+			<svg width="204px" height="66px" viewBox="0 0 204 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+				<!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+				<title>SJG</title>
+				<desc>SJG</desc>
+				<g id="sjg-logo-g" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+					<path id="sjg-logo-path" fill="#FFFFFF" d="M13.2792246,34.3469388 C6.71096527,31.7372449 1.23741581,27.5280612 0.226914372,20.0357143 C-1.54146314,7.49234694 7.13200753,0 22.5421545,0 C30.4577491,0 36.5207577,3.03061224 38.5417606,4.79846939 L39.8048874,16.4158163 C36.6049661,12.9642857 29.699873,9.93367347 22.7947798,9.93367347 C16.2265205,9.93367347 10.3319288,11.7857143 11.1740133,17.8469388 L13.2792246,34.3469388 Z M40.0575127,63.4744898 L38.0365098,46.9744898 C37.5312591,43.7755102 35.5102563,41.502551 32.2261266,39.9030612 L31.1314167,28.4540816 C40.6469719,31.1479592 47.4678566,34.9362245 48.8994003,45.2066327 C50.1625271,54.3826531 46.6257721,60.5280612 40.0575127,63.4744898 Z M22.2053207,65.8316327 C12.5213485,64.9056122 7.04779908,61.4540816 5.19521311,60.0229592 L3.5952525,46.5535714 C5.78467228,49.8367347 12.9423908,54.4668367 21.3632361,55.7295918 L22.2053207,65.8316327 Z M106.329565,64.3163265 L97.9087201,2.60969388 C97.8245116,2.02040816 97.4876778,1.5994898 97.2350524,1.34693878 L108.687402,0.841836735 C108.518985,1.09438776 108.603194,1.34693878 108.687402,1.93622449 L114.497785,42.9336735 C116.266163,55.4770408 112.308366,61.7066327 106.329565,64.3163265 Z M96.6455933,66 C89.5720832,65.9158163 84.8564098,63.2219388 83.1722407,61.5382653 L81.8249055,49.6683673 C85.6984943,53.9617347 90.7510015,56.1505102 95.8035087,56.1505102 L96.6455933,66 Z M164.096564,59.8545918 C156.349387,54.2142857 151.044254,45.375 149.444293,34.0102041 C146.581206,13.8061224 157.444096,0 176.30679,0 C178.580418,0 181.022463,0.168367347 182.959258,0.589285714 L183.885551,10.9438776 C181.780339,10.3545918 179.422503,9.93367347 176.559415,9.93367347 C166.538609,9.93367347 158.286181,17.5102041 160.475601,33.0841837 L164.096564,59.8545918 Z M183.043466,66 L182.201382,56.1505102 C190.874852,56.1505102 194.664233,50.5102041 193.822148,44.0280612 L192.811647,37.0408163 L180.180379,37.0408163 C179.506711,37.0408163 179.338294,36.872449 179.169877,37.125 L178.159376,27.0229592 C178.327793,27.1913265 178.917252,27.6122449 179.422503,27.6122449 L201.485117,27.5280612 C201.232492,27.6122449 201.569326,27.7806122 201.569326,28.2857143 L203.758746,43.7755102 C205.442915,55.6454082 198.285196,66 183.043466,66 Z"></path>
+				</g>
+			</svg>
+		</div>
+		<!-- LOGO BOX -->
+		
+		<!-- SWITCH BOX (height 120px) -->
+		<div class="sjg-switch w-100 h-120px flex-row flex-h-center flex-v-center">
+			<svg width="52px" height="32px" viewBox="0 0 52 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+				<!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+				<title>Switch</title>
+				<desc>Switch to...</desc>
+				<g id="sjg-switch-g" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+					<g id="sjg-switch-g-transform" transform="translate(2.000000, 2.000000)">
+						<path id="sjg-switch-rect" stroke="#FFFFFF" stroke-width="2" d="M14,-1 L34,-1 C42.2842712,-1 49,5.71572875 49,14 C49,22.2842712 42.2842712,29 34,29 L14,29 C5.71572875,29 -1,22.2842712 -1,14 C-1,5.71572875 5.71572875,-1 14,-1 Z"></path>
+						<rect id="sjg-switch-circle" fill="#FFFFFF" x="2" y="2" width="24" height="24" rx="12"></rect>
+					</g>
+				</g>
+			</svg>
+		</div>
+		<!-- SWITCH BOX (height 120px) -->
+		
+	</header>
+	<!-- HEADER -->
+
+	
+	<!-- PRIMARY CONTENT WRAP -->
+	<div class="primary-content-wrap w-100 flex-col flex-v-top">
+		
+		
+		<!-- INTER-SECTION SPACER (50% of viewport height) -->
+		<div class="w-100 h-50v"></div>
+		
+		<!-- SECTION 1 -->
+		<section class="w-100 flex-col flex-v-top">
+			<div class="w-100 flex-row flex-h-center">
+				<div class="sjg-container">
+					<div class="spec-primary-section-1"></div>
+				</div>
+			</div>
+		</section>
+		<!-- SECTION 1 -->
+		
+		
+		<!-- INTER-SECTION SPACER (50% of viewport height) -->
+		<div class="w-100 h-50v"></div>
+		
+		
+		<!-- SECTION 2 -->
+		<section class="w-100 flex-col flex-v-top">
+			<div class="w-100 flex-row flex-h-center">
+				<div class="sjg-container">
+					<div class="spec-primary-section-2"></div>
+				</div>
+			</div>
+		</section>
+		<!-- SECTION 2 -->
+		
+		
+		<!-- INTER-SECTION SPACER (50% of viewport height) -->
+		<div class="fade-in-primary-bg-2 w-100 h-50v"></div>
+		
+		
+		<!-- SECTION 3 -->
+		<section class="media-player-gif w-100 flex-col flex-v-top">
+			<div class="media-player-body-fade w-100 h-100">
+		
+				<!-- MEDIA-PLAYER -->
+				<div class="media-player-wrap w-100">
+					<div class="media-player-body w-100 h-0">
+						<div class="media-player-body-full w-100 h-100">
+							<div class="media-player-description w-100 h-100">
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- MEDIA-PLAYER -->
+			
+				<div class="w-100 flex-row flex-h-center">
+					<div class="sjg-container">
+						
+						<div class="spec-primary-section-3"></div>
+						
+						<div class="spec-primary-section-3-read-more read-more-content read-more-blocks h-0"></div>
+						
+						<button class="btn btn-more btn-player-more">
+							Read More
+							<svg width="18px" height="11px" viewBox="0 0 18 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+								<!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+								<title>More</title>
+								<desc>Read More</desc>
+								<g id="carrot" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+									<polyline id="Path" stroke="#FFFFFF" stroke-width="2.5" points="1 1 9 9 17 1"></polyline>
+								</g>
+							</svg>
+						</button>
+						
+						<button class="btn btn-less btn-player-less">
+							View Less
+							<svg width="18px" height="10px" viewBox="0 0 18 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+								<!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+								<title>Less</title>
+								<desc>View Less</desc>
+								<g id="carrot-up" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+									<g id="Primary" transform="translate(-559.000000, -4055.000000)" stroke="none" stroke-width="2.5">
+										<polyline stroke="#FFFFFF" stroke-width="2.5" id="Path" transform="translate(568.000000, 4060.500000) scale(1, -1) translate(-568.000000, -4060.500000) " points="560 4057 568 4064 576 4057"></polyline>
+									</g>
+								</g>
+							</svg>
+						</button>
+				
+					</div>
+				</div>
+			
+			<div>
+		</section>
+		<!-- SECTION 3 -->
+		
+		
+		<!-- INTER-SECTION SPACER (50% of viewport height) -->
+		<div class="w-100 h-50v"></div>
+		
+		
+		<!-- SECTION 4 -->
+		<section class="w-100 flex-col flex-v-top">
+			<div class="w-100 flex-row flex-h-center">
+				<div class="sjg-container">
+					<div class="spec-primary-section-4"></div>
+				</div>
+			</div>
+		</section>
+		<!-- SECTION 4 -->
+		
+		
+		<!-- INTER-SECTION SPACER (50% of viewport height) -->
+		<div class="w-100 h-50v"></div>
+		
+		
+		<!-- SECTION 5 (contacts) -->
+		<section class="say-hello-section w-100 flex-col flex-h-center flex-v-center">
+		
+			<div class="w-100 flex-row flex-h-center">
+				<div class="sjg-container">
+			
+					<div class="spec-primary-section-5"></div>
+					
+					<!-- LIST of ICONs -->
+					<div class="icon-list flex-row flex-h-left mt-s42px-m52px">
+					    
+					    <!-- EMAIL ICON -->
+					    <a href="#" class="email-link icon-list-item">
+                            <svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+                                <title>Email</title>
+                                <desc>Mail me.</desc>
+                                <g id="spec2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="Primary_Spec" transform="translate(-1062.000000, -6370.000000)" stroke="#FFFFFF">
+                                        <g id="emailIcon" transform="translate(1063.000000, 6371.000000)">
+                                            <circle id="Oval" stroke-width="2" cx="24" cy="24" r="24"></circle>
+                                            <rect id="Rectangle" stroke-width="2" stroke-linejoin="round" x="11" y="14" width="26" height="20" rx="1.6"></rect>
+                                            <polyline id="Path-9" stroke-width="1.88" stroke-linecap="round" stroke-linejoin="round" points="14.8352941 18.0015444 24 25.6810811 33.1647059 18.0015444"></polyline>
+                                            <path d="M14.8352941,30.1984556 L21.5411765,23.8741313" id="Path-10" stroke-width="1.88" stroke-linecap="round"></path>
+                                            <path d="M33.1647059,30.1984556 L26.4588235,23.8741313" id="Path-11" stroke-width="1.88" stroke-linecap="round"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+					    </a>
+					    
+					    <!-- PHONE ICON -->
+					    <a href="#" class="phone-link icon-list-item">
+					        <svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+                                <title>Phone</title>
+                                <desc>Phone me.</desc>
+                                <g id="spec2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="Primary_Spec" transform="translate(-1126.000000, -6370.000000)" stroke="#FFFFFF" stroke-width="2">
+                                        <g id="phoneIcon" transform="translate(1127.000000, 6371.000000)">
+                                            <circle id="Oval" cx="24" cy="24" r="24"></circle>
+                                            <path d="M21.7067707,19.3073451 C21.7067707,17.8972805 19.0358588,13 17.5956745,13 C16.1554901,13 12.5673764,14.9617043 12.0652683,17.0779647 C11.5631601,19.194225 13.9806465,25.210791 18.5382833,30.1288477 C23.0959201,35.0469045 27.460944,36 29.9656716,36 C32.4703993,36 36.4580373,32.0474162 35.956945,30.5988693 C35.4558528,29.1503223 30.9776726,26.2262139 29.5415128,26.5209046 C28.1053531,26.8155953 28.1053531,28.822596 25.8545754,28.822596 C25.4176468,28.822596 24.1745101,28.3684045 22.5188878,26.7040089 C20.9311741,25.1078816 19.9158597,23.2850851 19.863302,22.9322026 C19.5334344,20.7174098 21.7067707,20.7174098 21.7067707,19.3073451 Z" id="Path-6"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+					    </a>
+					    
+					    <!-- LINKEDIN ICON -->
+					    <a href="#" target="_blank" class="linkedin-link icon-list-item">
+                            <svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+                                <title>LinkedIn</title>
+                                <desc>My Linked-In profile.</desc>
+                                <g id="spec2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="Primary_Spec" transform="translate(-1190.000000, -6370.000000)">
+                                        <g id="linkedInIcon" transform="translate(1191.000000, 6371.000000)">
+                                            <circle id="Oval" stroke="#FFFFFF" stroke-width="2" cx="24" cy="24" r="24"></circle>
+                                            <path id="in-path" d="M13,29.8046875 L14.9101562,29.4765625 L14.9101562,20.4179688 L13,20.0898438 L13,18.6015625 L17.21875,18.6015625 L17.21875,29.4765625 L19.1289062,29.8046875 L19.1289062,31.28125 L13,31.28125 L13,29.8046875 Z M17.21875,15.3554688 L14.9101562,15.3554688 L14.9101562,13 L17.21875,13 L17.21875,15.3554688 Z M21.637784,29.8046875 L23.5479403,29.4765625 L23.5479403,20.4179688 L21.637784,20.0898438 L21.637784,18.6015625 L25.6104403,18.6015625 L25.7745028,20.4882812 C26.1963799,19.8164029 26.7256714,19.2949237 27.3623934,18.9238281 C27.9991153,18.5527325 28.7237174,18.3671875 29.5362215,18.3671875 C30.9034158,18.3671875 31.961999,18.7675741 32.7120028,19.5683594 C33.4620065,20.3691446 33.8370028,21.6054604 33.8370028,23.2773438 L33.8370028,29.4765625 L35.747159,29.8046875 L35.747159,31.28125 L29.6182528,31.28125 L29.6182528,29.8046875 L31.528409,29.4765625 L31.528409,23.3242188 C31.528409,22.2070257 31.3077081,21.4140648 30.8662996,20.9453125 C30.4248912,20.4765602 29.7510698,20.2421875 28.8448153,20.2421875 C28.1807494,20.2421875 27.5928647,20.4023421 27.0811434,20.7226562 C26.5694221,21.0429704 26.161223,21.480466 25.856534,22.0351562 L25.856534,29.4765625 L27.7666903,29.8046875 L27.7666903,31.28125 L21.637784,31.28125 L21.637784,29.8046875 Z" fill="#FFFFFF"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+					    </a>
+					    
+					</div><!-- LIST of ICONs -->
+									
+				</div>
+			</div>
+			
+		</section>
+		<!-- SECTION 5 (contacts) -->
+		
+		
+		<!-- LAST SECTION SPACER (50% of viewport height minus 50% of last section height) -->
+		<div class="last-spacer w-100 h-50v"></div>
+		
+		
+	</div>
+	<!-- PRIMARY CONTENT WRAP -->
+
+	
+	<!-- SECONDARY CONTENT WRAP -->
+	<div class="secondary-content-wrap w-100 flex-col flex-v-top">
+		
+		
+		<!-- INTER-SECTION SPACER (50% of viewport height) -->
+		<div class="w-100 h-50v"></div>
+		
+		
+		<!-- SECTION 1 -->
+		<section class="fade-in-secondary-bg-2 w-100 flex-col flex-v-top">
+			<div class="w-100 flex-row flex-h-center">
+				<div class="sjg-container">
+				
+					<div class="spec-secondary-section-1"></div>
+					
+				</div>
+			</div>
+		</section>
+		<!-- SECTION 1 -->
+		
+		
+		<!-- INTER-SECTION SPACER (50% of viewport height) -->
+		<div class="w-100 h-50v"></div>
+		
+		
+		<!-- SECTION 2 -->
+		<section class="fade-in-secondary-bg-3 w-100 flex-col flex-v-top">
+			<div class="w-100 flex-row flex-h-center">
+				<div class="sjg-container">
+				
+					<div class="spec-secondary-section-2"></div>
+				
+				</div>
+			</div>
+		</section>
+		<!-- SECTION 2 -->
+		
+		
+		<!-- INTER-SECTION SPACER (50% of viewport height) -->
+		<div class="w-100 h-50v"></div>
+		
+		
+		<!-- SECTION 3 -->
+		<section class="fade-in-secondary-bg-4 angel-city-faded w-100 flex-col flex-v-top">
+		
+			<!-- ANGEL CITY (full) -->
+			<div class="angel-city-wrap w-100">
+				<div class="angel-city-full w-100 h-0"></div>
+			</div>
+			<!-- ANGEL CITY (full) -->
+		
+			<div class="w-100 flex-row flex-h-center">
+				<div class="sjg-container">
+					
+					<div class="spec-secondary-section-3"></div>
+					
+					<div class="spec-secondary-section-3-read-more angel-city-read-more-content read-more-blocks h-0"></div>
+					
+					<button class="btn btn-more btn-angel-city-more">
+						Read More
+						<svg class="ml-16px" width="18px" height="11px" viewBox="0 0 18 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+							<!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+							<title>More</title>
+							<desc>Read More</desc>
+							<g id="carrot-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+								<polyline id="carrot-2-poly" stroke="#024262" stroke-width="2.5" points="1 1 9 9 17 1"></polyline>
+							</g>
+						</svg>
+					</button>
+					
+					<button class="btn btn-less btn-angel-city-less">
+						View Less
+						<svg class="ml-16px" width="18px" height="10px" viewBox="0 0 18 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+							<!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+							<title>Less</title>
+							<desc>View Less</desc>
+							<g id="spec2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+								<g id="carrot-up-2" transform="translate(-559.000000, -4055.000000)" stroke="none" stroke-width="2.5">
+									<polyline stroke="#024262" stroke-width="2.5" id="Path" transform="translate(568.000000, 4060.500000) scale(1, -1) translate(-568.000000, -4060.500000) " points="560 4057 568 4064 576 4057"></polyline>
+								</g>
+							</g>
+						</svg>
+					</button>
+			
+				</div>
+			</div>
+			
+		</section>
+		<!-- SECTION 3 -->
+		
+		
+		<!-- INTER-SECTION SPACER (50% of viewport height) -->
+		<div class="w-100 h-50v"></div>
+		
+		
+		<!-- SECTION 4 -->
+		<section class="fade-in-secondary-bg-5 w-100 flex-col flex-v-top">
+			<div class="w-100 flex-row flex-h-center">
+				<div class="sjg-container">
+					
+					<div class="spec-secondary-section-4"></div>
+				
+				</div>
+			</div>
+		</section>
+		<!-- SECTION 4 -->
+		
+		
+		<!-- INTER-SECTION SPACER (50% of viewport height) -->
+		<div class="w-100 h-50v"></div>
+		
+		
+		<!-- SECTION 5 (contacts) -->
+		<section class="say-hello-section-2 fade-in-secondary-bg-hello w-100 flex-col flex-h-center flex-v-center">
+		
+			<div class="w-100 flex-row flex-h-center">
+				<div class="sjg-container">
+					
+					<div class="spec-secondary-section-5"></div>
+					
+					<!-- LIST of ICONs -->
+					<div class="icon-list flex-row flex-h-left mt-s42px-m52px">
+					    
+					    <!-- EMAIL ICON -->
+					    <a href="#" class="email-link icon-list-item">
+                            <svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+                                <title>Email</title>
+                                <desc>Mail me</desc>
+                                <g id="spec2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="Primary_Spec" transform="translate(-1062.000000, -6370.000000)" stroke="#024262">
+                                        <g id="emailIcon" transform="translate(1063.000000, 6371.000000)">
+                                            <circle id="Oval" stroke-width="2" cx="24" cy="24" r="24"></circle>
+                                            <rect id="Rectangle" stroke-width="2" stroke-linejoin="round" x="11" y="14" width="26" height="20" rx="1.6"></rect>
+                                            <polyline id="Path-9" stroke-width="1.88" stroke-linecap="round" stroke-linejoin="round" points="14.8352941 18.0015444 24 25.6810811 33.1647059 18.0015444"></polyline>
+                                            <path d="M14.8352941,30.1984556 L21.5411765,23.8741313" id="Path-10" stroke-width="1.88" stroke-linecap="round"></path>
+                                            <path d="M33.1647059,30.1984556 L26.4588235,23.8741313" id="Path-11" stroke-width="1.88" stroke-linecap="round"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+					    </a>
+					    
+					    <!-- PHONE ICON -->
+					    <a href="#" class="phone-link icon-list-item">
+					        <svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+                                <title>Phone</title>
+                                <desc>Call me</desc>
+                                <g id="spec2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="Primary_Spec" transform="translate(-1126.000000, -6370.000000)" stroke="#024262" stroke-width="2">
+                                        <g id="phoneIcon" transform="translate(1127.000000, 6371.000000)">
+                                            <circle id="Oval" cx="24" cy="24" r="24"></circle>
+                                            <path d="M21.7067707,19.3073451 C21.7067707,17.8972805 19.0358588,13 17.5956745,13 C16.1554901,13 12.5673764,14.9617043 12.0652683,17.0779647 C11.5631601,19.194225 13.9806465,25.210791 18.5382833,30.1288477 C23.0959201,35.0469045 27.460944,36 29.9656716,36 C32.4703993,36 36.4580373,32.0474162 35.956945,30.5988693 C35.4558528,29.1503223 30.9776726,26.2262139 29.5415128,26.5209046 C28.1053531,26.8155953 28.1053531,28.822596 25.8545754,28.822596 C25.4176468,28.822596 24.1745101,28.3684045 22.5188878,26.7040089 C20.9311741,25.1078816 19.9158597,23.2850851 19.863302,22.9322026 C19.5334344,20.7174098 21.7067707,20.7174098 21.7067707,19.3073451 Z" id="Path-6"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+					    </a>
+					    
+					    <!-- LINKEDIN ICON -->
+					    <a href="#" target="_blank" class="linkedin-link icon-list-item">
+                            <svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+                                <title>LinkedIn</title>
+                                <desc>My Linked-In profile.</desc>
+                                <g id="spec2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="Primary_Spec" transform="translate(-1190.000000, -6370.000000)">
+                                        <g id="linkedInIcon" transform="translate(1191.000000, 6371.000000)">
+                                            <circle id="Oval" stroke="#024262" stroke-width="2" cx="24" cy="24" r="24"></circle>
+                                            <path id="in-path-2" d="M13,29.8046875 L14.9101562,29.4765625 L14.9101562,20.4179688 L13,20.0898438 L13,18.6015625 L17.21875,18.6015625 L17.21875,29.4765625 L19.1289062,29.8046875 L19.1289062,31.28125 L13,31.28125 L13,29.8046875 Z M17.21875,15.3554688 L14.9101562,15.3554688 L14.9101562,13 L17.21875,13 L17.21875,15.3554688 Z M21.637784,29.8046875 L23.5479403,29.4765625 L23.5479403,20.4179688 L21.637784,20.0898438 L21.637784,18.6015625 L25.6104403,18.6015625 L25.7745028,20.4882812 C26.1963799,19.8164029 26.7256714,19.2949237 27.3623934,18.9238281 C27.9991153,18.5527325 28.7237174,18.3671875 29.5362215,18.3671875 C30.9034158,18.3671875 31.961999,18.7675741 32.7120028,19.5683594 C33.4620065,20.3691446 33.8370028,21.6054604 33.8370028,23.2773438 L33.8370028,29.4765625 L35.747159,29.8046875 L35.747159,31.28125 L29.6182528,31.28125 L29.6182528,29.8046875 L31.528409,29.4765625 L31.528409,23.3242188 C31.528409,22.2070257 31.3077081,21.4140648 30.8662996,20.9453125 C30.4248912,20.4765602 29.7510698,20.2421875 28.8448153,20.2421875 C28.1807494,20.2421875 27.5928647,20.4023421 27.0811434,20.7226562 C26.5694221,21.0429704 26.161223,21.480466 25.856534,22.0351562 L25.856534,29.4765625 L27.7666903,29.8046875 L27.7666903,31.28125 L21.637784,31.28125 L21.637784,29.8046875 Z" fill="#024262"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+					    </a>
+					    
+					</div>
+					<!-- LIST of ICONs -->
+									
+				</div>
+			</div>
+			
+		</section>
+		<!-- SECTION 5 (contacts) -->
+		
+		
+		<!-- LAST SECTION SPACER (50% of viewport height minus 50% of last section height) -->
+		<div class="last-spacer-2 w-100 h-50v"></div>
+		
+		
+	</div>
+	<!-- SECONDARY CONTENT WRAP -->
+
+  <!-- Scripts -->
+  <script src="js/json-content-reader.js" type="text/javascript"></script>
+  <script src="js/sjg.js" type="text/javascript"></script>
+  <!-- Scripts -->
+  
 </body>
-</html>
 
+</html>
