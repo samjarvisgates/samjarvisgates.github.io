@@ -1,280 +1,278 @@
-{
-"specs":{
-	"primary":{
-		"section1":{
-			"label":
-				"current date",
-			"blocks":[
-				{"header":
-					"The Designer &amp; Prototyper"
+{  
+	"specs":{  
+	   "primary":{  
+		  "section1":{  
+			 "label":"current date",
+			 "blocks":[  
+				{  
+				   "header":"The Designer &amp; Prototyper"
 				},
-				{"paragraph": 
-					"I work as a product designer at a video streaming company called Hulu (a bit like Netflix). At Hulu, I’m trying to build the best experience for our users, whether on an iPhone, an Xbox, or a regular internet browser."
+				{  
+				   "paragraph":"I work as a product designer at a video streaming company called Hulu (a bit like Netflix). At Hulu, I’m trying to build the best experience for our users, whether on an iPhone, an Xbox, or a regular internet browser."
 				},
-				{"paragraph": 
-					"What does 'best experience' mean? In product design, this includes the user interface and the pathways a user takes through these interfaces. The best experience seamlessly engages users and redefines the future of television and storytelling at the same time."
+				{  
+				   "paragraph":"What does 'best experience' mean? In product design, this includes the user interface and the pathways a user takes through these interfaces. The best experience seamlessly engages users and redefines the future of television and storytelling at the same time."
 				},
-				{"paragraph": 
-					"Projects I’ve worked on include a mobile video player, a new live TV experience for mobile and web, and mobile details pages for TV and movies. I’ve worked in all phases of the design process including definition, ideation, prototype development, user testing, documentation, and development team support."
+				{  
+				   "paragraph":"Projects I’ve worked on include a mobile video player, a new live TV experience for mobile and web, and mobile details pages for TV and movies. I’ve worked in all phases of the design process including definition, ideation, prototype development, user testing, documentation, and development team support."
 				}
-			]
-		},
-		"section2":{
-			"label":
-				"As a UX designer",
-			"blocks":[
-				{"header": 
-					"I Believe in"
+			 ]
+		  },
+		  "section2":{  
+			 "label":"As a UX designer",
+			 "blocks":[  
+				{  
+				   "header":"I Believe in"
 				},
-				{"list": [
-					"Putting the user first (through research and data)",
-					"Clearly defining problems before jumping to solutions",
-					"Continually involving stakeholders throughout the design process"
-					]
+				{  
+				   "list":[  
+					  "Putting the user first (through research and data)",
+					  "Clearly defining problems before jumping to solutions",
+					  "Continually involving stakeholders throughout the design process"
+				   ]
 				}
-			]
-		},
-		"section3":{
-			"label":
-				"Project Spotlight",
-			"blocks":[
-				{"header": 
-					"Hulu Live TV"
+			 ]
+		  },
+		  "section3":{  
+			 "label":"Project Spotlight",
+			 "blocks":[  
+				{  
+				   "header":"Hulu Live TV"
 				},
-				{"paragraph": 
-					"A story about designing a bridge between traditional cable and the future of television."
+				{  
+				   "paragraph":"A story about designing a bridge between traditional cable and the future of television."
 				}
-			],
-			"blocksReadMore":[
-				{"subHeader": 
-					"Project Context"
+			 ],
+			 "blocksReadMore":[  
+				{  
+				   "subHeader":"Project Context"
 				},
-				{"paragraph": 
-					"The initial solution for Hulu Live TV aimed to transform traditional linear programming into an on-demand experience. Live content was mixed in with regular on-demand content and suggested to users using the usual recommendation algorithms."
+				{  
+				   "paragraph":"The initial solution for Hulu Live TV aimed to transform traditional linear programming into an on-demand experience. Live content was mixed in with regular on-demand content and suggested to users using the usual recommendation algorithms."
 				},
-				{"paragraph": 
-					"However, this solution failed to meet expectations. Users wanted a dedicated place where they could get to live TV quickly and engage in traditional behaviors such as channel-flipping or planning a night of TV watching."
+				{  
+				   "paragraph":"However, this solution failed to meet expectations. Users wanted a dedicated place where they could get to live TV quickly and engage in traditional behaviors such as channel-flipping or planning a night of TV watching."
 				},
-				{"paragraph": 
-					"One user phrased it simply, “You can’t call this live TV. You have to choose what you want to watch, which defeats the purpose of live TV.”"
+				{  
+				   "paragraph":"One user phrased it simply, “You can’t call this live TV. You have to choose what you want to watch, which defeats the purpose of live TV.”"
 				},
-				{"subHeader": 
-					"Problem Statement"
+				{  
+				   "subHeader":"Problem Statement"
 				},
-				{"paragraph": 
-					"How might we accommodate traditional live TV behaviors while also meeting the needs for the future of live TV?"
+				{  
+				   "paragraph":"How might we accommodate traditional live TV behaviors while also meeting the needs for the future of live TV?"
 				},
-				{"subHeader": 
-					"Design Solution"
+				{  
+				   "subHeader":"Design Solution"
 				},
-				{"paragraph": 
-					"Over the next ten months, my team and I began a comprehensive overhaul of live TV on Hulu. We mapped user journeys across our existing experiences, identifying problems and opportunities along the way. We analyzed traditional cable TV experiences as well as new mobile video experiences."
+				{  
+				   "paragraph":"Over the next ten months, my team and I began a comprehensive overhaul of live TV on Hulu. We mapped user journeys across our existing experiences, identifying problems and opportunities along the way. We analyzed traditional cable TV experiences as well as new mobile video experiences."
 				},
-				{"paragraph": 
-					"I created hundreds of sketches, wireframes, and prototypes, gathering feedback from users and stakeholders every step of the way. After unifying behind a common solution, we broke it down into multiple versions, to be progressively released and validated."
+				{  
+				   "paragraph":"I created hundreds of sketches, wireframes, and prototypes, gathering feedback from users and stakeholders every step of the way. After unifying behind a common solution, we broke it down into multiple versions, to be progressively released and validated."
 				},
-				{"gallery": [
-					"uploads/spotlight1.jpg",
-					"uploads/spotlight2.png",
-					"uploads/spotlight3.png"
-					]
+				{  
+				   "gallery":[  
+					  "uploads/spotlight1.jpg",
+					  "uploads/spotlight2.png",
+					  "uploads/spotlight3.png"
+				   ]
 				},
-				{"subHeader": 
-					"Initial Release"
+				{  
+				   "subHeader":"Initial Release"
 				},
-				{"paragraph": 
-					"“On its mobile apps, Hulu is introducing a new icon in the main navigation bar that immediately takes you to live TV on the last channel you had on.” – The Verge"
+				{  
+				   "paragraph":"“On its mobile apps, Hulu is introducing a new icon in the main navigation bar that immediately takes you to live TV on the last channel you had on.” – The Verge"
 				},
-				{"paragraph": 
-					"“The guide… is a much easier way of seeing what’s on now… Hulu now works in portrait mode, so you can browse programming while streaming.”  – Techcrunch"
+				{  
+				   "paragraph":"“The guide… is a much easier way of seeing what’s on now… Hulu now works in portrait mode, so you can browse programming while streaming.”  – Techcrunch"
 				},
-				{"paragraph": 
-					"“Hulu has made some improvements over the last year. The biggest change is a proper grid-based guide for live TV” – Techhive"
+				{  
+				   "paragraph":"“Hulu has made some improvements over the last year. The biggest change is a proper grid-based guide for live TV” – Techhive"
 				},
-				{"paragraph": 
-					"“Hulu Live is underrated… it has gotten better and better” –  Reddit"
+				{  
+				   "paragraph":"“Hulu Live is underrated… it has gotten better and better” –  Reddit"
 				}
-			]
-		},
-		"section4":{
-			"label":
-				"Project Snapshots",
-			"blocks":[
-				{"header": 
-					"Mobile Video Player"
+			 ]
+		  },
+		  "section4":{  
+			 "label":"Project Snapshots",
+			 "blocks":[  
+				{  
+				   "header":"Mobile Video Player"
 				},
-				{"paragraph": 
-					"A redesign of the Hulu player experience on iOS and Android to address major user pain points."
+				{  
+				   "paragraph":"A redesign of the Hulu player experience on iOS and Android to address major user pain points."
 				},
-				{"gallery": [
-					"uploads/scrubbing1.png",
-					"uploads/scrubbing2.png",
-					"uploads/scrubbingGIF.gif"
-					]
+				{  
+				   "gallery":[  
+					  "uploads/scrubbing1.png",
+					  "uploads/scrubbing2.png",
+					  "uploads/scrubbingGIF.gif"
+				   ]
 				},
-				{"header": 
-					"Mobile Details Page"
+				{  
+				   "header":"Mobile Details Page"
 				},
-				{"paragraph": 
-					"A redesign of content details pages on Hulu. Goals included decreased time to playback and better support for different content types such as live sports, news, and movies."
+				{  
+				   "paragraph":"A redesign of content details pages on Hulu. Goals included decreased time to playback and better support for different content types such as live sports, news, and movies."
 				},
-				{"gallery": [
-					"uploads/portfolio1.jpg",
-					"uploads/portfolioGIF.gif"
-					]
+				{  
+				   "gallery":[  
+					  "uploads/portfolio1.jpg",
+					  "uploads/portfolioGIF.gif"
+				   ]
 				},
-				{"header": 
-					"Portfolio Website"
+				{  
+				   "header":"Portfolio Website"
 				},
-				{"paragraph": 
-					"A fully responsive website to showcase and share different craftsman-style projects."
+				{  
+				   "paragraph":"A fully responsive website to showcase and share different craftsman-style projects."
 				},
-				{"gallery": [
-					"uploads/portfolio1.jpg",
-					"uploads/portfolioGIF.gif"
-					]
+				{  
+				   "gallery":[  
+					  "uploads/portfolio1.jpg",
+					  "uploads/portfolioGIF.gif"
+				   ]
 				}
-			]
-		}
+			 ]
+		  }
+	   },
+	   "secondary":{  
+		  "section1":{  
+			 "label":"current date",
+			 "blocks":[  
+				{  
+				   "header":"The Creative Engineer"
+				},
+				{  
+				   "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+				},
+				{  
+				   "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+				}
+			 ]
+		  },
+		  "section2":{  
+			 "label":"As a Creative Engineer",
+			 "blocks":[  
+				{  
+				   "header":"I Believe in"
+				},
+				{  
+				   "list":[  
+					  "Putting the user first (through research and data)",
+					  "Understanding problems before jumping to solutions",
+					  "Continually involving stakeholders throughout the design process"
+				   ]
+				}
+			 ]
+		  },
+		  "section3":{  
+			 "label":"Project Spotlight",
+			 "blocks":[  
+				{  
+				   "header":"California Brew Club"
+				},
+				{  
+				   "paragraph":"A story about finding community through craft beer and promoting the local breweries that make it."
+				}
+			 ],
+			 "blocksReadMore":[  
+				{  
+				   "subHeader":"Project Context"
+				},
+				{  
+				   "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+				},
+				{  
+				   "subHeader":"Problem Statement"
+				},
+				{  
+				   "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+				},
+				{  
+				   "subHeader":"Sub-Section with Gallery"
+				},
+				{  
+				   "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+				},
+				{  
+				   "gallery":[  
+					  "uploads/pic-1.jpg",
+					  "uploads/pic-2.jpg",
+					  "uploads/pic-3.jpg",
+					  "uploads/pic-4.jpg",
+					  "uploads/pic-5.jpg",
+					  "uploads/pic-6.jpg"
+				   ]
+				},
+				{  
+				   "subHeader":"Initial Release"
+				},
+				{  
+				   "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+				}
+			 ]
+		  },
+		  "section4":{  
+			 "label":"Project Snapshots",
+			 "blocks":[  
+				{  
+				   "header":"F*ck Your Coffee"
+				},
+				{  
+				   "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+				},
+				{  
+				   "gallery":[  
+					  "uploads/pic-1.jpg",
+					  "uploads/pic-2.jpg",
+					  "uploads/pic-3.jpg"
+				   ]
+				},
+				{  
+				   "header":"Parachute"
+				},
+				{  
+				   "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+				},
+				{  
+				   "gallery":[  
+					  "uploads/pic-4.jpg",
+					  "uploads/pic-5.jpg",
+					  "uploads/pic-6.jpg"
+				   ]
+				},
+				{  
+				   "header":"Mesa"
+				},
+				{  
+				   "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+				},
+				{  
+				   "gallery":[  
+					  "uploads/600x600.jpg",
+					  "uploads/land-small.jpg",
+					  "uploads/portrait-big.jpg"
+				   ]
+				}
+			 ]
+		  }
+	   }
 	},
-	"secondary":{
-		"section1":{
-			"label":
-				"current date",
-			"blocks":[
-				{"header":
-					"The Creative Engineer"
-				},
-				{"paragraph": 
-					"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-				},
-				{"paragraph": 
-					"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-				}
-			]
-		},
-		"section2":{
-			"label":
-				"As a Creative Engineer",
-			"blocks":[
-				{"header": 
-					"I Believe in"
-				},
-				{"list": [
-					"Putting the user first (through research and data)",
-					"Understanding problems before jumping to solutions",
-					"Continually involving stakeholders throughout the design process"
-					]
-				}
-			]
-		},
-		"section3":{
-			"label":
-				"Project Spotlight",
-			"blocks":[
-				{"header": 
-					"California Brew Club"
-				},
-				{"paragraph": 
-					"A story about finding community through craft beer and promoting the local breweries that make it."
-				}
-			],
-			"blocksReadMore":[
-				{"subHeader": 
-					"Project Context"
-				},
-				{"paragraph": 
-					"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-				},
-				{"subHeader": 
-					"Problem Statement"
-				},
-				{"paragraph": 
-					"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-				},
-				{"subHeader": 
-					"Sub-Section with Gallery"
-				},
-				{"paragraph": 
-					"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-				},
-				{"gallery": [
-					"uploads/pic-1.jpg",
-					"uploads/pic-2.jpg",
-					"uploads/pic-3.jpg",
-					"uploads/pic-4.jpg",
-					"uploads/pic-5.jpg",
-					"uploads/pic-6.jpg"
-					]
-				},
-				{"subHeader": 
-					"Initial Release"
-				},
-				{"paragraph": 
-					"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-				}
-			]
-		},
-		"section4":{
-			"label":
-				"Project Snapshots",
-			"blocks":[
-				{"header": 
-					"F*ck Your Coffee"
-				},
-				{"paragraph": 
-					"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-				},
-				{"gallery": [
-					"uploads/pic-1.jpg",
-					"uploads/pic-2.jpg",
-					"uploads/pic-3.jpg"
-					]
-				},
-				{"header": 
-					"Parachute"
-				},
-				{"paragraph": 
-					"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-				},
-				{"gallery": [
-					"uploads/pic-4.jpg",
-					"uploads/pic-5.jpg",
-					"uploads/pic-6.jpg"
-					]
-				},
-				{"header": 
-					"Mesa"
-				},
-				{"paragraph": 
-					"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-				},
-				{"gallery": [
-					"uploads/600x600.jpg",
-					"uploads/land-small.jpg",
-					"uploads/portrait-big.jpg"
-					]
-				}
-			]
-		}
+	"contacts":{  
+	   "label":"Contact",
+	   "blocks":[  
+		  {  
+			 "header":"Say Hello"
+		  },
+		  {  
+			 "paragraph":"Whether you need help on a project, or just feel like talking, I'm here."
+		  }
+	   ],
+	   "email":"fariz.gamidi@gmail.com",
+	   "phone":"+994-50-2210017",
+	   "linkedin":"http://linkedin.com"
 	}
-},
-"contacts":{
-	"label":
-		"Contact",
-	"blocks":[
-		{"header":
-			"Say Hello"
-		},
-		{"paragraph": 
-			"Whether you need help on a project, or just feel like talking, I'm here."
-		}
-	],
-	"email":
-		"fariz.gamidi@gmail.com",
-	"phone":
-		"+994-50-2210017",
-	"linkedin":
-		"http://linkedin.com"
-}
-}
+ }
