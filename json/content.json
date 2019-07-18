@@ -8,7 +8,7 @@
 				   "header":"The Designer &amp; Prototyper"
 				},
 				{  
-				   "paragraph":"I work as a product designer at a video streaming company called Hulu (a bit like Netflix). At Hulu, I’m trying to build the best experience for our users, whether on an iPhone, an Xbox, or a regular internet browser."
+				   "paragraph":"For two years, I worked as a product designer at a video streaming company called Hulu (a bit like Netflix). At Hulu, we focused on trying to build the best experience for our users, whether on an iPhone, an Xbox, or a regular internet browser."
 				},
 				{  
 				   "paragraph":"What does 'best experience' mean? In product design, this includes the user interface and the pathways a user takes through these interfaces. The best experience seamlessly engages users and redefines the future of television and storytelling at the same time."
@@ -104,8 +104,8 @@
 				},
 				{  
 				   "gallery":[  
-					  "uploads/portfolio1.jpg",
-					  "uploads/portfolioGIF.gif"
+					  "uploads/iPhoneDetails.jpg",
+					  "uploads/iPadDetails.jpg"
 				   ]
 				},
 				{  
@@ -131,11 +131,17 @@
 				   "header":"The Creative Engineer"
 				},
 				{  
-				   "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+				   "paragraph":"Hey! My name is Sam and I recently moved from Los Angeles, California to Copenhagen, Denmark. Right now, I’m learning to build iOS apps and I’m teaching myself Danish. In the near future, I hope to start my own company."
 				},
 				{  
-				   "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-				}
+                    "paragraph":"As the son of two engineers, I love problem solving. I also love experiments. As a child, this meant dropping watermelons from high places, blowing up water bottles with dry ice, and lighting off fireworks with a magnifying glass."
+				},
+                {
+                    "paragraph":"Nowadays, my experiments are a little more refined. They involve designs, prototypes, and discussion guides. Nevertheless, the results are still exciting, especially when they lead to more impactful solutions. "
+                },
+                {
+                    "paragraph":"Reach out for a coffee, meal, or ocean adventure :)"
+                }
 			 ]
 		  },
 		  "section2":{  
@@ -146,9 +152,9 @@
 				},
 				{  
 				   "list":[  
-					  "Putting the user first (through research and data)",
-					  "Understanding problems before jumping to solutions",
-					  "Continually involving stakeholders throughout the design process"
+					  "Using design to tell authentic stories",
+					  "Considering culture and sustainability alongside users",
+					  "Recognizing what you don’t know"
 				   ]
 				}
 			 ]
@@ -168,35 +174,25 @@
 				   "subHeader":"Project Context"
 				},
 				{  
-				   "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+				   "paragraph":"California Brew Club is a subscription beer delivery service that delivers local craft beers to customers. The goal is to help small-scale brewers reach more customers and help customers discover and connect with each other over new tastes and preferences."
 				},
 				{  
-				   "subHeader":"Problem Statement"
+				   "subHeader":"The Problem"
 				},
 				{  
-				   "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+				   "paragraph":"The craft beer market has been rapidly increasing for the past few years. However, for small-scale brewers, it can be difficult to sell their products because of unfamiliar branding and limited distribution. On the consumer side, many people have an interest in learning about new beers and tastes, but are unsure where to start."
 				},
 				{  
-				   "subHeader":"Sub-Section with Gallery"
+				   "subHeader":"The Solution"
 				},
 				{  
-				   "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+				   "paragraph":"The idea lets online customers select a number of beers they want to receive and how often they would like to receive them. California Brew Club then partners with different brewers and delivers a custom assortment of beers to the customer. Each beer comes with an information card to help people learn more about the beer they are drinking, and learn more about the brewer. Finally, customers rate the different beers, providing feedback to brewers, and allowing California Brew Club to personalize their future deliveries."
 				},
 				{  
 				   "gallery":[  
-					  "uploads/pic-1.jpg",
-					  "uploads/pic-2.jpg",
-					  "uploads/pic-3.jpg",
-					  "uploads/pic-4.jpg",
-					  "uploads/pic-5.jpg",
-					  "uploads/pic-6.jpg"
+					  "uploads/cbcStill.jpg",
+					  "uploads/cbcProto.gif"
 				   ]
-				},
-				{  
-				   "subHeader":"Initial Release"
-				},
-				{  
-				   "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 				}
 			 ]
 		  },
@@ -207,39 +203,34 @@
 				   "header":"F*ck Your Coffee"
 				},
 				{  
-				   "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+				   "paragraph":"A social experiment inspired by high coffee prices in the Los Angeles area. Served free, high-quality coffee on a popular street in return for conversation."
 				},
 				{  
 				   "gallery":[  
-					  "uploads/pic-1.jpg",
-					  "uploads/pic-2.jpg",
-					  "uploads/pic-3.jpg"
+					  "uploads/coffee1.jpg",
+					  "uploads/coffee2.jpg"
 				   ]
 				},
 				{  
 				   "header":"Parachute"
 				},
 				{  
-				   "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+				   "paragraph":"An idea to gamify the bar and cafe experience by gathering customers for the sake of competition, prizes, and ultimately connection."
 				},
 				{  
 				   "gallery":[  
-					  "uploads/pic-4.jpg",
-					  "uploads/pic-5.jpg",
-					  "uploads/pic-6.jpg"
+					  "uploads/parachute.png"
 				   ]
 				},
 				{  
 				   "header":"Mesa"
 				},
 				{  
-				   "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+				   "paragraph":"An idea to connect communities and different age groups through shared dining experiences."
 				},
 				{  
 				   "gallery":[  
-					  "uploads/600x600.jpg",
-					  "uploads/land-small.jpg",
-					  "uploads/portrait-big.jpg"
+					  "uploads/mesa.jpg"
 				   ]
 				}
 			 ]
@@ -256,8 +247,8 @@
 			 "paragraph":"Whether you need help on a project, or just feel like talking, I'm here."
 		  }
 	   ],
-	   "email":"fariz.gamidi@gmail.com",
-	   "phone":"+994-50-2210017",
-	   "linkedin":"http://linkedin.com"
+	   "email":"samjarvisgates@gmail.com",
+	   "phone":"+4591774316",
+	   "linkedin":"https://www.linkedin.com/in/samgates/"
 	}
  }
