@@ -1,0 +1,241 @@
+#header {
+  height: 80px;
+}
+
+#align-left {
+  float: left;
+}
+
+#align-right {
+  float: right;
+}
+
+.button,
+.button:active,
+.button:visited {
+  background-color: #222222;
+  color: #FFFFFF;
+  padding: 12px;
+  line-height: 48px;
+  padding-left: 28px;
+  padding-right: 28px;
+  border-radius: 28px;
+  font-weight: 700;
+  
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  background-color: #2DC4FF;
+
+  -moz-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.top-margin {
+  margin-top: 48px;
+}
+
+.bottom-margin {
+  margin-bottom: 20px;
+}
+
+.text {
+  padding: 0px;
+}
+
+.badge {
+  background-color: #F0F0F0;
+  border-radius: 20px;
+  margin-bottom: 4px;
+}
+
+.row {
+  display: block;
+}
+
+.section {
+  margin-top: 180px;
+}
+
+#hero {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  background-image: url(../img/guide-v2/live-guide-v2-hero.jpg);
+  border-radius: 4px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  -webkit-box-shadow: 2px 2px 24px 0px rgba(0,0,0,0.12);
+  -moz-box-shadow: 2px 2px 24px 0px rgba(0,0,0,0.12);
+  box-shadow: 2px 2px 24px 0px rgba(0,0,0,0.12);
+}
+
+#pip {
+  position: absolute;
+  width: 33.3%;
+  height: 33.3%;
+  /* height: 200px; */
+  bottom: 2%;
+  right: 1.2%;
+  /* margin-left: 66%; */
+  background-image: url(../img/guide-v2/pip.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-box-shadow: 2px 2px 12px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 2px 2px 12px 0px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 12px 0px rgba(0,0,0,0.2);
+}
+
+#context1,
+#context2 {
+  padding-top: 56.25%;
+}
+
+#process1,
+#process2,
+#masthead,
+#fullguide,
+#filter-template,
+#popover {
+  padding-top: 75%;
+}
+
+#context1 {
+  background-color: #F6F6F6;
+  background-image: url(../img/guide-v2/context1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#context2 {
+  background-color: #F6F6F6;
+  background-image: url(../img/guide-v2/context2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#process1 {
+  background-color: #EBEFF8;
+  background-image: url(../img/guide-v2/process1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#process2 {
+  background-color: #EBEFF8;
+  background-image: url(../img/guide-v2/process2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#masthead {
+  background-color: #EBEFF8;
+  background-image: url(../img/guide-v2/masthead.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#fullguide {
+  background-color: #EBEFF8;
+  background-image: url(../img/guide-v2/full-guide.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#filter-template {
+  background-color: #EBEFF8;
+  background-image: url(../img/guide-v2/filter-template.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#popover {
+  background-color: #EBEFF8;
+  background-image: url(../img/guide-v2/popover.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+video {
+  width: 100%;
+  /* padding-top: 56.25%; */
+  height: auto;
+  border-radius: 4px;
+
+  -webkit-box-shadow: 2px 2px 24px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 2px 2px 24px 0px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 24px 0px rgba(0,0,0,0.2);
+}
+
+.portrait-img {
+  padding-top: 178%;
+  background-color: #F6F6F6;
+}
+
+@media (min-width: 1024px) {
+  .text {
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+
+  .row {
+    display: flex;
+    margin-right: -20px;
+  }
+
+  .col {
+    flex: 1;
+    margin-right: 20px;
+  }
+
+  #hero {
+    border-radius: 16px;
+  }
+
+  #context1,
+  #context2 {
+    padding-top: 27.2%;
+    /* padding-top: 50%; */
+  }
+
+  #process1,
+  #process2,
+  #masthead,
+  #fullguide,
+  #filter-template,
+  #popover {
+    padding-top: 36.1%;
+  }
+
+  .section {
+    margin-top: 220px;
+  }
+
+  video {
+    border-radius: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  #pip {
+    background-image: url(../img/guide-v2/pip-small.gif);
+  }
+
+}

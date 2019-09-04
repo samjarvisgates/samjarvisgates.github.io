@@ -1,0 +1,172 @@
+#header {
+  padding-bottom: 40px;
+}
+.section {
+  margin-top: 180px;
+}
+
+.mobile-section {
+  margin-top: 180px;
+}
+
+.full-body {
+  width: 100%;
+}
+
+.top-margin {
+  margin-top: 20px;
+}
+
+.top-margin-small {
+  margin-top: 12px;
+}
+
+.bottom-margin {
+  margin-bottom: 40px;
+}
+
+.row {
+  display: block;
+}
+
+#project1,
+#project2,
+#project3,
+#project4  {
+  height: 420px;
+  background-color: #EBEFF8;
+  transform: scale(1,1);
+  /* overflow: hidden; */
+
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#project1:hover,
+#project2:hover,
+#project3:hover,
+#project4:hover {
+  -moz-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+#project1 {
+  background-image: url(../img/live-guide-v1-mobile.png);
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center 40px;
+  background-color: #EBEFF8;
+}
+
+#project1:hover {
+  background-position: center 0px;
+  background-color: #8EE7B7;
+}
+
+#project2 {
+  background-image: url(../img/live-guide-v2-web-small.png);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center 50px;
+  background-color: #EBEFF8;
+}
+
+#project2:hover {
+  background-color: #81DBFF;
+  background-position: center 20px;
+}
+
+#project3 {
+  background-image: url(../img/coming-soon.png);
+  background-size: 139px 22px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#project3:hover {
+  background-color: #D7B1FE;
+}
+
+#project4 {
+  background-image: url(../img/coming-soon.png);
+  background-size: 139px 22px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#project4:hover {
+  background-color: #FFAAAA;
+}
+
+.badge {
+  margin-left: 12px;
+  margin-top: 384px;
+  /* bottom: 10px; */
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.caption {
+  display: flex;
+}
+
+.button,
+.button:active,
+.button:visited {
+  background-color: #222222;
+  color: #FFFFFF;
+  padding: 12px;
+  line-height: 48px;
+  padding-left: 28px;
+  padding-right: 28px;
+  border-radius: 28px;
+  font-weight: 700;
+  
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  background-color: #2DC4FF;
+
+  -moz-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+@media (min-width: 1023px) {
+  .full-body {
+      width: 75%;
+  }
+  
+  .section {
+      margin-top: 220px;
+  }
+  
+  .mobile-section {
+      margin-top: 0px;
+  }
+
+  .row {
+      display: flex;
+      margin-right: -20px;
+  }
+  
+  .col {
+      flex: 1;
+      margin-right: 20px;
+  }
+
+}
+@media (min-width: 768px) {
+  #project2 {
+    background-image: url(../img/live-guide-v2-web.png);
+  }
+}

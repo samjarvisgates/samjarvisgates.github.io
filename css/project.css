@@ -1,0 +1,194 @@
+#header {
+  height: 80px;
+}
+
+#align-left {
+  float: left;
+}
+
+#align-right {
+  float: right;
+}
+
+.button,
+.button:active,
+.button:visited {
+  background-color: #222222;
+  color: #FFFFFF;
+  padding: 12px;
+  line-height: 48px;
+  padding-left: 28px;
+  padding-right: 28px;
+  border-radius: 28px;
+  font-weight: 700;
+  
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  background-color: #2DC4FF;
+
+  -moz-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.top-margin {
+  margin-top: 48px;
+}
+
+.bottom-margin {
+  margin-bottom: 20px;
+}
+
+.text {
+  padding: 0px;
+}
+
+.badge {
+  background-color: #F0F0F0;
+  border-radius: 20px;
+  margin-bottom: 4px;
+}
+
+.row {
+  display: block;
+}
+
+.section {
+  margin-top: 180px;
+}
+
+#hero {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  background-image: url(../img/guide-v1/live-guide-v1-hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#player {
+  position: absolute;
+  width: 34%;
+  height: 34%;
+  top: 21.2%;
+  left: 11.35%;
+  background-image: url(../img/guide-v1/player.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+@media (max-width: 768px) {
+  #player {
+    background-image: url(../img/guide-v1/player-small.gif);
+  }
+}
+
+#process1 {
+  padding-top: 56.25%;
+  background-color: #F6F6F6;
+  background-image: url(../img/guide-v1/journey-map.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#process2 {
+  padding-top: 56.25%;
+  background-color: #F6F6F6;
+  background-image: url(../img/guide-v1/cast-flows.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#spec1 {
+  padding-top: 56.25%;
+  background-color: #F6F6F6;
+  background-image: url(../img/guide-v1/spec-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#spec2 {
+  padding-top: 56.25%;
+  background-color: #F6F6F6;
+  background-image: url(../img/guide-v1/spec-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#proto {
+  padding-top: 90%;
+  background-color: #EBEFF8;
+  background-image: url(../img/guide-v1/prototype.gif);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#vod {
+  padding-top: 90%;
+  background-color: #EBEFF8;
+  background-image: url(../img/guide-v1/portrait-player-vod.png);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#breakdown {
+  width: 100%;
+  padding-top: 75%;
+  background-image: url(../img/guide-v1/guide-breakdown.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.portrait-img {
+  padding-top: 178%;
+  background-color: #F6F6F6;
+}
+
+@media (min-width: 1024px) {
+  .text {
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+
+  .row {
+    display: flex;
+    margin-right: -20px;
+  }
+
+  .col {
+    flex: 1;
+    margin-right: 20px;
+  }
+
+  #process1,
+  #process2,
+  #spec1,
+  #spec2 {
+    padding-top: 27.2%;
+  }
+
+  #proto,
+  #vod {
+    padding-top: 50%;
+    background-size: 45%;
+  }
+
+  .section {
+    margin-top: 220px;
+}
+}
