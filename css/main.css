@@ -114,13 +114,7 @@ a h2:hover {
 ul {
     padding-left: 20px;
 }
-li {
-    font-size: 14px;
-}
-li span {
-    padding-left: 8px;
-    font-size: 16px;
-}
+
 /**
  * Callout Font (Mobile)
  */
@@ -344,4 +338,7 @@ callout {
     page-break-after: avoid;
   }
 }
+
+
+
 
