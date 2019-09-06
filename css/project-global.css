@@ -1,0 +1,329 @@
+/*****************************************************************************/
+/************************    GLOBAL PROJECT STYLES    ************************/
+/*****************************************************************************/
+
+#header {
+  height: 80px;
+}
+
+#align-left {
+  float: left;
+}
+
+#align-right {
+  float: right;
+}
+
+.button,
+.button:active,
+.button:visited {
+  background-color: #222222;
+  color: #FFFFFF;
+  padding: 12px;
+  line-height: 48px;
+  padding-left: 28px;
+  padding-right: 28px;
+  border-radius: 28px;
+  font-weight: 700;
+  
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  background-color: #2DC4FF;
+
+  -moz-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.top-margin {
+  margin-top: 48px;
+}
+
+.bottom-margin {
+  margin-bottom: 20px;
+}
+
+.text {
+  padding: 0px;
+}
+
+.badge {
+  background-color: #F0F0F0;
+  border-radius: 20px;
+  margin-bottom: 4px;
+}
+
+.row {
+  display: block;
+}
+
+.section {
+  margin-top: 180px;
+}
+
+.sixteen-by-nine,
+.sixteen-by-nine-hero {
+  padding-top: 56.25%;
+  background-color: #F6F6F6;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.four-by-three,
+.four-by-three-hero {
+  padding-top: 75%;
+  background-color: #F6F6F6;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.three-by-four {
+  padding-top: 90%;
+  background-color: #F6F6F6;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/*****************************************************************************/
+/**********************    MOBILE LIVE GUIDE V1 CSS    ***********************/
+/*****************************************************************************/
+
+#mobile-guide-hero {
+  position: relative;
+  background-image: url(../img/guide-v1/live-guide-v1-hero.jpg);
+}
+
+#mobile-guide-player {
+  position: absolute;
+  width: 34%;
+  height: 34%;
+  top: 21.2%;
+  left: 11.35%;
+  background-image: url(../img/guide-v1/player.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#mobile-guide-process-1 {
+  background-image: url(../img/guide-v1/journey-map.jpg);
+}
+
+#mobile-guide-process-2 {
+  background-image: url(../img/guide-v1/cast-flows.jpg);
+}
+
+#mobile-guide-spec-1 {
+  background-image: url(../img/guide-v1/spec-1.jpg);
+}
+
+#mobile-guide-spec-2 {
+  background-image: url(../img/guide-v1/spec-2.jpg);
+}
+
+#mobile-guide-proto {
+  background-image: url(../img/guide-v1/prototype.gif);
+  background-size: 40%;
+}
+
+#mobile-guide-vod {
+  background-image: url(../img/guide-v1/portrait-player-vod.png);
+  background-size: 40%;
+}
+
+#mobile-guide-breakdown {
+  background-image: url(../img/guide-v1/guide-breakdown.jpg);
+}
+
+/*****************************************************************************/
+/************************    WEB LIVE GUIDE V2 CSS    ************************/
+/*****************************************************************************/
+
+#web-guide-hero {
+  position: relative;
+  background-image: url(../img/guide-v2/live-guide-v2-hero.jpg);
+  border-radius: 4px;
+
+  -webkit-box-shadow: 2px 2px 24px 0px rgba(0,0,0,0.12);
+  -moz-box-shadow: 2px 2px 24px 0px rgba(0,0,0,0.12);
+  box-shadow: 2px 2px 24px 0px rgba(0,0,0,0.12);
+}
+
+#web-guide-pip {
+  position: absolute;
+  width: 33.3%;
+  height: 33.3%;
+  bottom: 2%;
+  right: 1.2%;
+  background-image: url(../img/guide-v2/pip.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-box-shadow: 2px 2px 12px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 2px 2px 12px 0px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 12px 0px rgba(0,0,0,0.2);
+}
+
+#web-guide-context-1 {
+  background-image: url(../img/guide-v2/context1.jpg);
+}
+
+#web-guide-context-2 {
+  background-image: url(../img/guide-v2/context2.jpg);
+}
+
+#web-guide-process-1 {
+  background-image: url(../img/guide-v2/process1.jpg);
+}
+
+#web-guide-process-2 {
+  background-image: url(../img/guide-v2/process2.jpg);
+}
+
+#web-guide-masthead {
+  background-image: url(../img/guide-v2/masthead.jpg);
+}
+
+#web-guide-fullguide {
+  background-image: url(../img/guide-v2/full-guide.jpg);
+}
+
+#web-guide-filter-template {
+  background-image: url(../img/guide-v2/filter-template.jpg);
+}
+
+#web-guide-popover {
+  background-image: url(../img/guide-v2/popover.jpg);
+}
+
+#web-guide-prototype {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+
+  -webkit-box-shadow: 2px 2px 24px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 2px 2px 24px 0px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 24px 0px rgba(0,0,0,0.2);
+}
+
+
+/*****************************************************************************/
+/**************************    MOBILE PLAYER CSS    **************************/
+/*****************************************************************************/
+
+#player-video {
+  background-color: #ffffff;
+  width: 100%;
+  height: auto;
+  margin-left: 0%;
+}
+
+#player-hero {
+  background-image: url(../img/player/player-hero.jpg)
+}
+
+#player-process-1 {
+  background-image: url(../img/player/player-process-1.jpg)
+}
+
+#player-process-2 {
+  background-image: url(../img/player/player-process-2.jpg)
+}
+
+#player-design-1 {
+  background-image: url(../img/player/paused-vod.jpg)
+}
+
+#player-design-2 {
+  background-image: url(../img/player/playing-live.jpg)
+}
+
+#player-design-3 {
+  background-image: url(../img/player/full-screen-scrub.jpg)
+}
+
+#player-design-4 {
+  background-image: url(../img/player/double-tap-skip.jpg)
+}
+
+/*****************************************************************************/
+/****************************    MEDIA QUERIES    ****************************/
+/*****************************************************************************/
+
+
+@media (min-width: 1024px) {
+  .text {
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+
+  .row {
+    display: flex;
+    margin-right: -20px;
+  }
+
+  .col {
+    flex: 1;
+    margin-right: 20px;
+  }
+
+  .sixteen-by-nine {
+    padding-top: 27.2%;
+  }
+
+  .four-by-three {
+    padding-top: 36.1%;
+  }
+
+  .three-by-four {
+    padding-top: 50%;
+  }
+
+  .section {
+    margin-top: 220px;
+  }
+
+  /* Mobile Guide Large Breakpoints */
+  #mobile-guide-proto,
+  #mobile-guide-vod {
+    background-size: 45%;
+  }
+
+  /* Web Guide Large Breakpoints */
+  #web-guide-hero {
+    border-radius: 16px;
+  }
+
+  #web-guide-prototype {
+    border-radius: 16px;
+  }
+
+  /* Player Large Breakpoints */
+  #player-video {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 768px) {
+
+  /* Mobile Guide Small Breakpoints */
+  #mobile-guide-player {
+    background-image: url(../img/guide-v1/player-small.gif);
+  }
+
+  /* Web Guide Small Breakpoints */
+  #web-guide-pip {
+    background-image: url(../img/guide-v2/pip-small.gif);
+  }
+
+}
