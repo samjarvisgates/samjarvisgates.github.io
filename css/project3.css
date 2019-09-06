@@ -1,0 +1,151 @@
+#header {
+  height: 80px;
+}
+
+#align-left {
+  float: left;
+}
+
+#align-right {
+  float: right;
+}
+
+.button,
+.button:active,
+.button:visited {
+  background-color: #222222;
+  color: #FFFFFF;
+  padding: 12px;
+  line-height: 48px;
+  padding-left: 28px;
+  padding-right: 28px;
+  border-radius: 28px;
+  font-weight: 700;
+  
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  background-color: #2DC4FF;
+
+  -moz-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.top-margin {
+  margin-top: 48px;
+}
+
+.bottom-margin {
+  margin-bottom: 20px;
+}
+
+.text {
+  padding: 0px;
+}
+
+.badge {
+  background-color: #F0F0F0;
+  border-radius: 20px;
+  margin-bottom: 4px;
+}
+
+.row {
+  display: block;
+}
+
+.section {
+  margin-top: 180px;
+}
+
+.sixteen-by-nine,
+.sixteen-by-nine-hero {
+  padding-top: 56.25%;
+  background-color: #F6F6F6;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.four-by-three,
+.four-by-three-hero {
+  padding-top: 75%;
+  background-color: #F6F6F6;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#player-video {
+  background-color: #ffffff;
+  width: 100%;
+  height: auto;
+  margin-left: 0%;
+}
+
+@media (min-width: 1024px) {
+  .text {
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+
+  .row {
+    display: flex;
+    margin-right: -20px;
+  }
+
+  .col {
+    flex: 1;
+    margin-right: 20px;
+  }
+
+  #hero {
+    border-radius: 16px;
+  }
+
+  .sixteen-by-nine {
+    padding-top: 27.2%;
+  }
+
+  .four-by-three {
+    padding-top: 36.1%;
+  }
+
+  #player-video {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+#player-hero {
+  background-image: url(../img/player/player-hero.jpg)
+}
+
+#player-process-1 {
+  background-image: url(../img/player/player-process-1.jpg)
+}
+
+#player-process-2 {
+  background-image: url(../img/player/player-process-2.jpg)
+}
+
+#player-design-1 {
+  background-image: url(../img/player/paused-vod.jpg)
+}
+
+#player-design-2 {
+  background-image: url(../img/player/playing-live.jpg)
+}
+
+#player-design-3 {
+  background-image: url(../img/player/full-screen-scrub.jpg)
+}
+
+#player-design-4 {
+  background-image: url(../img/player/double-tap-skip.jpg)
+}

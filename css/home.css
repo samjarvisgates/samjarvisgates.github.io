@@ -79,6 +79,18 @@
   background-color: #81DBFF;
 }
 
+
+#project3 {
+  background-image: url(../img/mobile-player.png);
+  background-size: 130%;
+  background-repeat: no-repeat;
+  background-position: 12px center;
+}
+
+#project3:hover {
+  background-color: #D7B1FE;
+}
+
 @media (min-width: 416px) {
   #project2 {
     background-image: url(../img/live-guide-v2-web.png);
@@ -90,17 +102,30 @@
     background-size: 90%;
     background-position: center center;
   }
+
+  #project3 {
+    background-size: 85%;
+    background-position: center center;
+  }
+  
+  #project3:hover {
+    background-size: 90%;
+    background-position: center center;
+  }
 }
 
-#project3 {
-  background-image: url(../img/coming-soon.png);
-  background-size: 139px 22px;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
+@media (min-width: 1600px) {
+  #project2,
+  #project3 {
+    background-size: 65%;
+    background-position: center center;
+  }
 
-#project3:hover {
-  background-color: #D7B1FE;
+  #project2:hover,
+  #project3:hover {
+    background-size: 70%;
+    background-position: center center;
+  }
 }
 
 #project4 {
@@ -153,7 +178,7 @@
   transition: all 0.2s;
 }
 
-@media (min-width: 1023px) {
+@media (min-width: 768px) {
   .full-body {
       width: 75%;
   }

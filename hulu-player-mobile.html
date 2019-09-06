@@ -1,0 +1,114 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>SJG</title>
+    <meta name="description" content="Hulu Video Player Redesign Mobile">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+
+    <link rel="icon" href="favicon.ico">
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/project3.css">
+</head>
+
+<body>
+
+    <div id="header">
+        <div id="align-left">
+            <a href="index.html">
+                <h2>Sam Gates</h2>
+                <p>UX  /  UI  /  Prototyping</p>
+            </a>
+        </div>
+        <div id="align-right">
+            <a class="button" href="mailto:samjarvisgates@gmail.com?subject=Design Opportunity&body=Hey Sam,">Hire me</a>
+        </div>
+    </div>
+    <div class="four-by-three-hero" id="player-hero">
+    </div>
+    <div class="text">
+        <img class="top-margin badge" src="img/mobileBadge.svg"/>
+        <h1>Hulu Video Player Redesign</h1>
+        <callout>A better playback experience for iOS and Android.</callout>
+        <h3 class="top-margin bottom-margin">Context</h3>
+        <p2>When I started at Hulu, the video player on phones and tablets was not in a good place. Every day, we received hundreds of complaints in app store reviews and research surveys. In addition to general playback bugs, users were struggling to use the full-screen scrubbing feature that had recently been implemented. The full-screen scrubbing feature was designed to make it easier for users to accurately seek to different times in the video, especially while watching live TV. However, users were unclear how to use the feature and were accidently seeking to random places in the video because of it.</p2>
+        <h3 class="top-margin bottom-margin">Project Goals</h3>
+        <ul>
+            <li><p2>Address major user pain points, especially around accidental seeking and full-screen scrubbing.</p2></li>
+            <li><p2>Design a player that works better with live TV content.</p2></li>
+            <li><p2>Ensure that experience feels native to both tablet and phone devices.</p2></li>
+        </ul>
+        <h3 class="top-margin bottom-margin">Design Process</h3>
+        <p2>The first step in the project was to go through user reviews and identify common pain points in the current experience. After summarizing these paint points, I performed a competitive analysis, looking at other video services and how their video players worked with regard to short content, long content, advertisements, and live TV. The next step was to ideate on a number of different sketches and designs. Along with these ideations, I developed prototypes using FramerJS.<br><br>Eventually, I consolidated these prototypes into two versions: one without full-screen scrubbing and one with an adapted version that felt more predictable and required a long press to begin. The results indicated that the new full-screen scrubbing prototype performed better, albeit with a number of opportunities for further improvement. From here, I was able to begin refining the design and prepare it for development.</p2>
+    </div>
+    <div class="row top-margin">
+        <div class="col bottom-margin sixteen-by-nine" id="player-process-1"></div>
+        <div class="col bottom-margin sixteen-by-nine" id="player-process-2"></div>
+    </div>
+    <div class="text">
+        <h3 class="top-margin bottom-margin">Design Solution</h3>
+        <p2>Upon releasing the new design, the number of user complaints about video playback dropped significantly. The redesigned mobile video player has a more intuitive full-screen scrubbing experience that prevents accidental seeks and allows users to seek through live and on-demand content with higher accuracy. It also allows users to double tap to jump forward in the video by a certain amount. This is a feature found in the YouTube player that also tested well during our study. Finally, I redesigned the player controls to have a sleeker design with smooth animations, creating an experience that feels fast and unobtrusive on phones and tablets.</p2>
+    </div>
+    <div class="row top-margin">
+            <div class="col bottom-margin four-by-three" id="player-design-1"></div>
+            <div class="col bottom-margin four-by-three" id="player-design-2"></div>
+    </div>
+    <div class="row">
+            <div class="col bottom-margin four-by-three" id="player-design-3"></div>
+            <div class="col bottom-margin four-by-three" id="player-design-4"></div>
+    </div>
+    <div class="text">
+        <h3 class="top-margin bottom-margin">Lessons Learned</h3>
+        <p2><b><b>Earn the design.</b></b> Initially, I handled this project in a tactical manner, making minor adjustments to the existing experience to address known pain points. However, eventually I tried pursuing drastically different and crazy directions. While most of these didn’t make sense, it was a valuable process to go through. It showed me what was and wasn’t working and also helped me innovate on an uncommon feature.<br><br><b><b>Document designs from a development perspective.</b></b> Video players are a hard thing to spec for developers because the interface constantly changes depending on user inputs. This project showed me how important it is to create thorough documentation in collaboration with the developer, if possible. Projects go more smoothly when designs are documented in a way that meshes with an iterative development workflow.<br><br><b><b>Nail the wireframes before starting the prototypes.</b></b> It’s easy to make changes to wireframes and storyboards, but difficult to change prototypes. Building prototypes can be time intensive, especially when they encompass a lot of functionality. For this project, it would have been faster to get my wireframes and storyboard flows right before spending time to build all the prototypes.</p2>
+    </div>
+    <div class="top-margin">
+        <video id="player-video" loop controls autoplay>
+            <source src="img/player/player-proto.mp4" type="video/mp4">
+            Your browser does not support video.
+        </video>
+    </div>
+    <div class="section">
+        <h3>Other Projects</h3>
+        <div class="top-margin"><a href="index.html">
+            <img class="badge" src="img/mobileBadge.svg"/>
+            <h2><strike>Hulu Details Page Redesign</strike></h2>
+            <p>A better content details page so users can get to playback faster.</p>
+        </a><div>
+        <div class="top-margin"><a href="hulu-live-guide-v1-mobile.html">
+            <img class="badge" src="img/mobileBadge.svg"/>
+            <h2>Hulu Live Guide V1</h2>
+            <p>A bridge between traditional cable and the future of television.</p>
+        </a></div>
+        <div class="top-margin"><a href="hulu-live-guide-v2-web.html">
+            <img class="badge" src="img/webBadge.svg"/>
+            <h2>Hulu Live Guide V2</h2>
+            <p>A better live TV guide for the Hulu website.</p>
+        </a></div>
+    </div>
+    <div class="section"></div>
+    
+    <!-- <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script> -->
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-71884021-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        
+        gtag('config', 'UA-71884021-1');
+    </script>
+
+</body>
+
+</html>
