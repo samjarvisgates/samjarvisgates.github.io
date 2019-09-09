@@ -228,32 +228,53 @@
 }
 
 #player-hero {
-  background-image: url(../img/player/player-hero.jpg)
+  background-image: url(../img/player/player-hero.jpg);
 }
 
 #player-process-1 {
-  background-image: url(../img/player/player-process-1.jpg)
+  background-image: url(../img/player/player-process-1.jpg);
 }
 
 #player-process-2 {
-  background-image: url(../img/player/player-process-2.jpg)
+  background-image: url(../img/player/player-process-2.jpg);
 }
 
 #player-design-1 {
-  background-image: url(../img/player/paused-vod.jpg)
+  background-image: url(../img/player/paused-vod.jpg);
 }
 
 #player-design-2 {
-  background-image: url(../img/player/playing-live.jpg)
+  background-image: url(../img/player/playing-live.jpg);
 }
 
 #player-design-3 {
-  background-image: url(../img/player/full-screen-scrub.jpg)
+  background-image: url(../img/player/full-screen-scrub.jpg);
 }
 
 #player-design-4 {
-  background-image: url(../img/player/double-tap-skip.jpg)
+  background-image: url(../img/player/double-tap-skip.jpg);
 }
+
+/*****************************************************************************/
+/**************************    MOBILE PLAYER CSS    **************************/
+/*****************************************************************************/
+
+#details-hero {
+  background-image: url(../img/details/details-hero.jpg);
+}
+
+#details-process-1 {
+  background-image: url(../img/details/details-competitive-1.jpg);
+}
+
+#details-process-2 {
+  background-image: url(../img/details/details-competitive-2.jpg);
+}
+
+#details-scenarios {
+  background-image: url(../img/details/details-scenarios.jpg);
+}
+
 
 /*****************************************************************************/
 /****************************    MEDIA QUERIES    ****************************/

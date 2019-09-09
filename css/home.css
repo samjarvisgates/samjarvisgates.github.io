@@ -2,7 +2,7 @@
   padding-bottom: 40px;
 }
 .section {
-  margin-top: 180px;
+  margin-top: 160px;
 }
 
 .mobile-section {
@@ -88,6 +88,17 @@
 }
 
 #project3:hover {
+  background-color: #FFAAAA;
+}
+
+#project4 {
+  background-image: url(../img/details-tablet.png);
+  background-size: 260px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#project4:hover {
   background-color: #D7B1FE;
 }
 
@@ -112,6 +123,15 @@
     background-size: 90%;
     background-position: center center;
   }
+
+  #project4 {
+    background-size: 340px;
+    background-position: center 50px;
+  }
+  
+  #project4:hover {
+    background-position: center 16px;
+  }
 }
 
 @media (min-width: 1600px) {
@@ -128,16 +148,6 @@
   }
 }
 
-#project4 {
-  background-image: url(../img/coming-soon.png);
-  background-size: 139px 22px;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-#project4:hover {
-  background-color: #FFAAAA;
-}
 
 .badge {
   margin-left: 12px;
@@ -158,10 +168,11 @@
   color: #FFFFFF;
   padding: 12px;
   line-height: 48px;
-  padding-left: 28px;
-  padding-right: 28px;
-  border-radius: 28px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 24px;
   font-weight: 700;
+  font-size: 14px;
   
   -moz-transition: all 0.5s;
   -webkit-transition: all 0.5s;
@@ -184,7 +195,7 @@
   }
   
   .section {
-      margin-top: 220px;
+      margin-top: 200px;
   }
   
   .mobile-section {
