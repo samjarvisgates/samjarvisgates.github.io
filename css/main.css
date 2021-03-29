@@ -59,12 +59,12 @@ body {
  * Header Font (Mobile)
  */
  
-h1, h2, h3 {
+h1, h2, h3, h4 {
     color: #222222;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 900;
-    font-size: 28px;
-    line-height: 38px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    line-height: 1.25em;
     margin: 0;
 
     -moz-transition: all 0.5s;
@@ -74,24 +74,30 @@ h1, h2, h3 {
 }
 
 h2 {
-    font-size: 22px;
-    line-height: 28px;
+    font-size: 1.125em;
+    line-height: 1.5em;
 }
 
 h3 {
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 1em;
+    line-height: 1.5em;
     font-weight: 700;
+}
+
+h4 {
+  font-size: 1.25em;
+  font-weight: 300;
+  line-height: 1.5em;
 }
 /**
  * Root Font (Mobile)
  */
 p, p2, a, li, ul {
-    color: #222222;
-    font-family: 'Nunito', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 24px;
+    color: #888;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5em;
     margin: 0;
     text-decoration: none;
 
@@ -120,56 +126,55 @@ ul {
  */
 callout {
     color: #222222;
-    font-family: 'Nunito', sans-serif;
-    font-size: 20px;
-    font-weight: 200;
-    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.75em;
+    font-weight: 300;
+    line-height: 1.5em;
 }
 
 
 /* FONTS (sizing for Large Screens) */
 @media (min-width: 1024px) {
     body {
-        margin: 40px;
+        margin: 10%;
     }
     /**
      * Header Font (PC)
      */
     h1 {
-        font-size: 36px;
-        line-height: 49px;
+        font-size: 2.25em;
+        line-height: 1.25em;
     }
     h3 {
-        font-size: 16px;
-        line-height: 20px;
+        font-size: 1em;
+        line-height: 1.25em;
     }
     /**
      * Root Font (PC)
      */
-    p, p2, a, li, ul {
-        font-size: 18px;
-        line-height: 24px;
-    }
-    p2 {
-        font-size: 16px;
-        line-height: 20px;
-    }
-    li {
-        font-size: 14px;
+    p, a, li, ul {
+        font-size: 1em;
+        line-height: 1.5em;
     }
     li span {
         padding-left: 8px;
-        font-size: 18px;
+        font-size: 1em;
     }
     /**
      * Callout Font (PC)
      */
     callout {
-        font-size: 24px;
-        line-height: 32px;
+        font-size: 1.75em;
+        line-height: 1.5em;
     }
+
+
 }
 
+b, strong {
+  font-weight: 700;
+  color: #222;
+}
 
 
 
@@ -338,7 +343,3 @@ callout {
     page-break-after: avoid;
   }
 }
-
-
-
-
