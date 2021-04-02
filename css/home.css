@@ -44,14 +44,13 @@
   display: block;
 }
 
-#project1,
-#project2,
-#project3,
-#project4  {
+.tile  {
   height: 420px;
   background-color: #EBEFF8;
   transform: scale(1,1);
-  /* overflow: hidden; */
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  overflow: hidden;
 
   -moz-transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
@@ -59,109 +58,152 @@
   transition: all 0.3s ease-out;
 }
 
-#project1:hover,
-#project2:hover,
-#project3:hover,
-#project4:hover {
+.tile:hover {
   -moz-transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
 
-#project1 {
+.project1 {
   background-image: url(../img/live-guide-v1-mobile.png);
   background-size: 240px;
-  background-repeat: no-repeat;
   background-position: center 60px;
   background-color: #EBEFF8;
-  border-radius: 8px;
 }
 
-#project1:hover {
+.project1:hover {
   background-position: center 20px;
   background-color: #8EE7B7;
 }
 
-#project2 {
+.project2 {
   background-image: url(../img/live-guide-v2-web-small.png);
   background-size: 120%;
-  background-repeat: no-repeat;
   background-position: 12px center;
   background-color: #EBEFF8;
-  border-radius: 8px;
 }
 
-#project2:hover {
+.project2:hover {
   background-color: #81DBFF;
 }
 
 
-#project3 {
+.project3 {
   background-image: url(../img/mobile-player.png);
   background-size: 130%;
-  background-repeat: no-repeat;
   background-position: 12px center;
-  border-radius: 8px;
 }
 
-#project3:hover {
+.project3:hover {
   background-color: #FFAAAA;
 }
 
-#project4 {
+.project4 {
   background-image: url(../img/details-tablet.png);
   background-size: 260px;
-  background-repeat: no-repeat;
   background-position: center center;
-  border-radius: 8px;
 }
 
-#project4:hover {
+.project4:hover {
   background-color: #D7B1FE;
 }
 
+.genesis {
+  background-image: url(../img/genesis.png);
+  background-size: 88%;
+  background-position: center 20px;
+}
+
+.genesis:hover {
+  background-size: 90%;
+}
+
+.contact-overlay {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, .8);
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  z-index: 50;
+  -moz-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.contact-text {
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+  color: white;
+}
+
+.contact-overlay:hover {
+  opacity: 1;
+}
+
+.biolink {
+  background-image: url(../img/biolink.png);
+  background-size: 90%;
+  background-position: center 28px;
+}
+
+.biolink:hover {
+  background-size: 92%;
+}
+
 @media (min-width: 416px) {
-  #project2 {
+  .project2 {
     background-image: url(../img/live-guide-v2-web.png);
     background-size: 85%;
     background-position: center center;
   }
 
-  #project2:hover {
+  .project2:hover {
     background-size: 90%;
     background-position: center center;
   }
 
-  #project3 {
+  .project3 {
     background-size: 85%;
     background-position: center center;
   }
   
-  #project3:hover {
+  .project3:hover {
     background-size: 90%;
     background-position: center center;
   }
 
-  #project4 {
+  .project4 {
     background-size: 340px;
     background-position: center 50px;
   }
   
-  #project4:hover {
+  .project4:hover {
     background-position: center 16px;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  .contact-overlay {
+    opacity: 0;
   }
 }
 
 @media (min-width: 1600px) {
-  #project2,
-  #project3 {
+  .project2,
+  .project3 {
     background-size: 65%;
     background-position: center center;
   }
 
-  #project2:hover,
-  #project3:hover {
+  .project2:hover,
+  .project3:hover {
     background-size: 70%;
     background-position: center center;
   }
@@ -180,6 +222,7 @@
   color: #666;
   background-color: #ffffff;
   border-radius: 4px;
+  z-index: 100;
 }
 
 .caption {
