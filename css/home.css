@@ -37,7 +37,7 @@
 }
 
 .bottom-margin {
-  margin-bottom: 40px;
+  margin-bottom: 52px;
 }
 
 .row {
@@ -192,6 +192,7 @@
   .contact-overlay {
     opacity: 0;
   }
+
 }
 
 @media (min-width: 1600px) {
@@ -206,12 +207,13 @@
     background-size: 70%;
     background-position: center center;
   }
+
 }
 
 
 .badge {
   position: absolute;
-  right: 8px;
+  left: 8px;
   bottom: 8px;
   padding: 4px;
   padding-right: 12px;
